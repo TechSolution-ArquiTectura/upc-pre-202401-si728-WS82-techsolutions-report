@@ -247,6 +247,8 @@ Cada alternativa se discutió con la intención de llegar a la mejor aproximaci�
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
 
+![C4-System Landscape Diagram](https://i.ibb.co/wB3M66P/C4-Arqui-1.png)
+
 ### 4.3.1. Software Architecture Context Level Diagrams.
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
