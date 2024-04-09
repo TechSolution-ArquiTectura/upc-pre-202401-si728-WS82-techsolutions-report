@@ -265,6 +265,15 @@ de sus componentes y relaciones en niveles subsiguientes de la metodología C4.
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
 
+En el diagrama de contenedores muestra cómo está organizado y cómo funcionan las diferentes partes del sistema que estamos analizando.
+Imagina cada contenedor como una aplicación o servicio específico que hace algo concreto, como una página web o una base de datos.
+
+En este diagrama, las líneas o flechas entre los contenedores nos muestran cómo se comunican entre sí y
+cómo trabajan juntos para hacer que todo el sistema funcione correctamente. Es como un mapa que nos ayuda
+a entender qué hace cada parte del sistema y cómo interactúan entre ellas.
+
+![C4-Container Level Diagram](https://i.ibb.co/y5VjmHG/C4-Arqui-3.png)
+
 ### 4.3.3. Software Architecture Deployment Diagrams.
  
 
