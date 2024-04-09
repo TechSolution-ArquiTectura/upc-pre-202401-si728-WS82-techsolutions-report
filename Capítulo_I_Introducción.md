@@ -2,9 +2,27 @@
 
 ### 1.1.1 Descripción de la Startup
 
-<p align="justify">Nuestra startup se llama "TechSolutions", donde estamos comprometidos a mejorar la experiencia de viaje en transporte público a través de soluciones tecnológicas innovadoras. Nos enfocamos en optimizar la comodidad de los usuarios y abordar los desafíos actuales del transporte público mediante la aplicación de la tecnología. Creemos en la innovación como motor para crear viajes más placenteros para todos.</p>
+<p align="justify">
+El startup que se presenta recibe como nombre “TechSolutions”, y se dedica a la distribución
+y promoción de películas de nicho en el Perú. El grupo busca ofrecer una aplicación móvil que 
+a los usuarios explorar funciones, horarios y estrenos de películas no comerciales en auditorios
+universitarios, café-cines, auto cinemas y otros espacios culturales.
+</p>
 
-<p align="justify">En el núcleo de TechSolutions, contamos con un equipo apasionado y diverso de habilidades dedicados a impulsar la innovación en la movilidad urbana. Trabajamos constantemente para explorar nuevas soluciones que logren que los viajes sean más cómodos y convenientes para todos.</p>
+<p align="justify">
+Pero nuestra aplicación no solo se trata de encontrar y disfrutar de películas únicas. 
+Por medio de sección de discusiones en los perfiles de películas y cineclubes el usuario
+podrá validar si la experiencia y el tiempo invertido vale la pena. Además, la aplicación 
+le permitirá hacer reservas de manera sencilla y rápida. Para garantizar la transparencia y 
+seguridad en nuestras transacciones, hemos implementado la tecnología blockchain con smart contracts,
+lo que proporciona a nuestros usuarios una mayor confianza y trazabilidad en cada operación.
+</p>
+
+<p align="justify">
+Creemos que nuestra aplicación no solo ayuda a promover el cine de nicho en el Perú, 
+sino también a fomentar una comunidad culturalmente enriquecedora y diversa.
+</p>
+
 
 #### Misión
 <p align="justify">En TechSolutions, nuestra misión es impulsar la innovación en la movilidad urbana mediante el desarrollo de soluciones tecnológicas que mejoren la experiencia de viaje en transporte público. Estamos comprometidos a promover la eficiencia, seguridad y comodidad de todos los usuarios.</p>
