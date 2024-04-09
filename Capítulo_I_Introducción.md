@@ -25,10 +25,20 @@ sino también a fomentar una comunidad culturalmente enriquecedora y diversa.
 
 
 #### Misión
-<p align="justify">En TechSolutions, nuestra misión es impulsar la innovación en la movilidad urbana mediante el desarrollo de soluciones tecnológicas que mejoren la experiencia de viaje en transporte público. Estamos comprometidos a promover la eficiencia, seguridad y comodidad de todos los usuarios.</p>
+<p align="justify">
+"Nuestra misión es promover la cultura cinematográfica y apoyar el ciclo de vida del cine en Perú. 
+A través de nuestra aplicación web, pretendemos distribuir y promover películas especializadas y
+no comerciales, apoyar a cineastas y artistas locales y crear una comunidad dedicada al arte cinematográfico."
+</p>
 
 ##### Visión
-<p align="justify">En TechSolutions, aspiramos a liderar la transformación del transporte público hacia un futuro más inteligente y accesible a través de la innovación tecnológica. Visualizamos un escenario donde cada viaje en transporte público sea fluido, seguro y   cómodo para todos los usuarios.</p>
+<p align="justify">
+“Nuestra visión consta de ser una plataforma líder para la promoción y difusión de películas 
+de nicho y no comerciales, los cuales serán reconocidos por la gran calidad y excelencia que
+proporciona nuestro servicio. Nos esforzamos por ser una empresa innovadora en la distribución
+cinematográfica y también por ser un punto de encuentro para cinéfilos y gente que gusta del cine
+de nicho”. 
+</p>
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
