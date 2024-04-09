@@ -98,11 +98,18 @@ El equipo en conjunto se decidió por nombrar a la aplicación TuCine. Está apl
 
 #### 1.2.2.1 Lean UX Problem Statement
 
-<p align = "justify">El transporte público en Lima, Perú, enfrenta deficiencias que afectan la calidad de vida de los ciudadanos, incluyendo largos tiempos de espera, congestión en los buses y falta de información sobre rutas y horarios. Además, los conductores trabajan en condiciones precarias, lo que contribuye a una experiencia deficiente para los pasajeros.</p>
+En el contexto cinematográfico peruano, la información actualizada sobre películas de género alternativo 
+y el acceso a ella son limitados. No existe una plataforma para que los amantes del cine alternativo puedan 
+explorar fácilmente estrenos, horarios, ubicaciones y reseñas en lugares como cineclubes.
 
-<p align = "justify">Hemos identificado un factor crítico que impacta la satisfacción del cliente: la carencia de acceso a información actualizada sobre el transporte público y la insuficiente supervisión del conductor. Esto limita la capacidad de los usuarios para planificar sus viajes y suscita inquietudes sobre la seguridad durante los trayectos.</p>
+Hemos identificado un factor crítico que afecta la satisfacción del cliente: la ausencia de una 
+aplicación web o móvil que centralice de manera clara la información sobre horarios y ubicaciones 
+en los cines independientes.
 
-<p align = "justify">¿Cómo podemos desarrollar sistemas efectivos de monitoreo y comunicación para proporcionar información actualizada y garantizar una supervisión adecuada del conductor, mejorando así la experiencia del transporte público en la ciudad de Lima, promoviendo una mayor satisfacción de los pasajeros?</p>
+¿Cómo podemos desarrollar una aplicación web o móvil que centralice de manera eficiente y clara la 
+información sobre horarios y ubicaciones en los cines independientes, promoviendo así el cine alternativo
+y otorgándole la relevancia que merece en la industria cinematográfica peruana?
+
 
 #### 1.2.2.2 Lean UX Assumptions
 
