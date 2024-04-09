@@ -49,9 +49,9 @@ de nicho”.
 
 ## 1.2 Solution Profile
 
-**Nombre del Producto:** ChapaTuBus
+**Nombre del Producto:** TuCine
 
-El equipo ha decidido nombrar nuestra solución IoT como ChapaTuBus, la cual está diseñada para mejorar significativamente la experiencia de usuario en el transporte público. A través del uso de sensores, la plataforma ofrece un monitoreo en tiempo real del aforo del bus, el tiempo de circulación y el tiempo de espera en los paraderos, brindando esta información a todos los pasajeros mediante una aplicación móvil. Además, ChapaTuBus incorpora un sistema de monitoreo del conductor a través de una pulsera inteligente para identificar posibles signos de fatiga o estrés, permitiendo tomar medidas preventivas para garantizar la seguridad de conductor y pasajeros. La aplicación web se enfoca en funciones como inicio de sesión, planes de suscripción y monitoreo de actividad del conductor, mientras que la aplicación móvil permite ver el tiempo de llegada del bus, el aforo en tiempo real, guardar lugares frecuentes, recibir alertas de bus lleno, y trazar rutas, entre otras funciones. El compromiso del equipo es que ChapaTuBus sea una solución innovadora que aprovecha al máximo el Internet de las Cosas (IoT) para transformar la forma en que se percibe y se utiliza el transporte público, brindando mayor comodidad, seguridad y confiabilidad a los usuarios.
+El equipo en conjunto se decidió por nombrar a la aplicación TuCine. Está aplicación está dedicada a promover la cultura cinematográfica de nicho en el Perú en cines alternativos y no convencionales. La aplicación hará posible la consulta de estrenos, horarios, ubicaciones, películas de estos cines y además brindará a los usuarios la posibilidad de realizar reservas dentro de la aplicación. Además, por medio de una sección de comentarios podrá validar las experiencias de otros usuarios en los establecimientos. Nuestro equipo se compromete a que TuCine será una herramienta completa y accesible para todos los cinéfilos peruanos. Debido a que se dispone de poca información acerca del cine alternativo y de nicho, es por ello por lo que TuCine resulta en una solución innovadora que permite conectarse entre sí a todos los amantes del cine alternativo y que quieren disfrutar de películas distintivas y valiosas fuera del cine comercial.
 
 ### 1.2.1 Antecedentes y problemática
 
