@@ -376,13 +376,13 @@ debilidades, oportunidades y desafíos. Ahora presentamos el As-is Scenario de n
 
 **Dominio:** Cineclubs 
 
--Película: Se refiere al contenido cinematográfico proyectado en las salas de cine.
--Sala: Espacio físico dentro del cine donde se proyectan las películas.
--Función: Horario específico en el que se proyecta una película.
--Entrada: Boleto o ticket que permite el acceso a una función de cine.
--Popcorn: Palomitas de maíz, un snack popular en los cines.
--Combo: Combinación de productos como popcorn, bebidas y otros snacks ofrecidos a los espectadores.
--Estreno: Lanzamiento de una nueva película en las salas de cine.
--Cinéfilo: Persona apasionada por el cine.
--Promoción: Oferta especial o descuento en entradas, combos o eventos.
--Reserva: Acción de apartar o asegurar una entrada o asiento para una función específica.
+- Película: Se refiere al contenido cinematográfico proyectado en las salas de cine.
+- Sala: Espacio físico dentro del cine donde se proyectan las películas.
+- Función: Horario específico en el que se proyecta una película.
+- Entrada: Boleto o ticket que permite el acceso a una función de cine.
+- Popcorn: Palomitas de maíz, un snack popular en los cines.
+- Combo: Combinación de productos como popcorn, bebidas y otros snacks ofrecidos a los espectadores.
+- Estreno: Lanzamiento de una nueva película en las salas de cine.
+- Cinéfilo: Persona apasionada por el cine.
+- Promoción: Oferta especial o descuento en entradas, combos o eventos.
+- Reserva: Acción de apartar o asegurar una entrada o asiento para una función específica.
