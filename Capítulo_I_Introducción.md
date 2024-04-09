@@ -137,120 +137,29 @@ Features:
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
-- Hypothesis \#1
+**Hypothesis #1** <br>
+**Creemos** que desarrollar una plataforma completa para consultar información y reservas en cines alternativos será una solución efectiva.
+**Sabremos** que estamos en lo correcto
+**Cuando** veamos retroalimentación positiva de al menos el 80% de los usuarios que elogian la facilidad de uso de la aplicación y la disponibilidad de la información. Además, un aumento del 30% en el número de reservas realizadas a través de la aplicación en los primeros tres meses de lanzamiento.
 
-	**Creemos** que si proporcionamos información en tiempo real sobre los horarios de llegada de los buses, los usuarios del transporte público en Lima podrán planificar sus viajes de manera más eficiente y estarán más satisfechos con el servicio.
-   **Sabremos** que estamos en lo correcto
-   **Cuando** observemos una disminución en las quejas sobre retrasos y tiempos de espera prolongados. 
+**Hypothesis #2** <br>
+**Creemos** que al permitir que los propietarios de cineclubes administren y actualicen sus perfiles, aumentaremos su participación en la plataforma de TuCine y atraeremos a más cineclubes a afiliarse.
+**Sabremos** que estamos en lo correcto
+**Cuando** al menos el 60% de los propietarios registrados utlicen activamente la función de administrador para actualizar y mejorar la información en sus perfiles en los primeros tres meses de lanzamiento. Además, esperamos que el número de afiliados aumente en un 25% en los primeros tres meses.
 
-- Hypothesis \#2
-
-	**Creemos** que al ofrecer datos precisos sobre la capacidad de los buses, los pasajeros podrán evitar abordar vehículos llenos, lo que mejorará su experiencia de viaje y aumentará su satisfacción.
-   **Sabremos** que estamos en lo correcto
-   **Cuando** notemos una disminución en el número de usuarios que reportan buses congestionados y una mayor utilización de la funcionalidad de visualización de capacidad de los buses en la aplicación.
-
-- Hypothesis \#3
-
-	**Creemos** que si implementamos herramientas de monitoreo para los conductores de buses, podremos mejorar la seguridad y la eficiencia en las rutas de transporte público. 
-   **Sabremos** que estamos en lo correcto
-   **Cuando** observemos una reducción en los incidentes de seguridad reportados y un aumento en la puntualidad de los buses.
-
-- Hypothesis \#4 
-
-	**Creemos** que al ofrecer un servicio premium con características adicionales, como la reserva de asientos y alertas de bus lleno, podremos satisfacer las necesidades de los usuarios dispuestos a pagar por una experiencia mejorada.
-   **Sabremos** que estamos en lo correcto
-   **Cuando** observemos un aumento en el número de usuarios que optan por suscribirse al servicio premium y un aumento en los ingresos generados por estas suscripciones.
-
-- Hypothesis \#5
-
-	**Creemos** que si desarrollamos una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima, podremos mejorar la experiencia del usuario y aumentar la adopción de la aplicación.
-   **Sabremos** que estamos en lo correcto
-   **Cuando** observemos un aumento en el número de descargas de la aplicación y una mayor retención de usuarios a largo plazo.
+**Hypothesis #3** <br>
+**Creemos** que al incluir un espacio para que los usuarios compartan sus opiniones de los cineclubes y películas, construiremos la confianza de los usuarios en la plataforma al brindarles una visión más clara sobre qué esperar en términos de la experiencia en el cineclub y la calidad de la película.
+**Sabremos** que estamos en lo correcto
+**Cuando** observemos un aumento del 20% en la tasa de usuarios activos que participan en la lectura y escritura de opiniones en los primeros tres meses de lanzamiento. Además, esperamos que al menos el 50% de los usuarios consulten las opiniones antes de hacer su reserva.
 
 #### 1.2.2.4 Lean UX Canvas
 
-<table border="2">
-  <tr>
-    <td>
-        <p style = "font-weight: bold">Business Problem:</p>
-        <p>¿Cómo podemos desarrollar sistemas efectivos de monitoreo y comunicación para proporcionar información actualizada y garantizar una supervisión adecuada del conductor, mejorando así la experiencia del transporte público en la ciudad de Lima, promoviendo una mayor satisfacción de los pasajeros?</p>
-    </td>
-    <td rowspan = 2>
-        <p style = "font-weight: bold">Solution Ideas</p>
-        <ul>
-            <li>Desarrollar una aplicación móvil y una plataforma web que brinde información en tiempo real sobre horarios de llegada de buses, capacidad de los vehículos y ubicación de paraderos.</li>
-            <li>Implementar herramientas de monitoreo para conductores de buses para mejorar la seguridad y la eficiencia en las rutas.</li>
-            <li>Ofrecer un servicio premium con características adicionales, como alertas de bus lleno.</li>
-        </ul>
-    </td>
-    <td>
-        <p style = "font-weight: bold">Business Outcomes</p>
-        <ul>
-            <li>Mejorar la experiencia del usuario del transporte público.</li>
-            <li>Incrementar la puntualidad y la eficiencia del servicio.</li>
-            <li>Aumentar la satisfacción del cliente y su lealtad hacia el servicio de transporte público.</li>
-            <li>Incrementar los ingresos a través de suscripciones premium y servicios adicionales.</li>
-        </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p style = "font-weight: bold">Users & Customers</p>
-        <p style = "font-weight: bold">Pasajeros:</p> <p>Personas que utlizan el transporte público para trasladarse en la ciudad de Lima, incluyendo pasajeros regulares y ocasionales.</p>
-        <p style = "font-weight: bold">Dueños de las empresas de transporte:</p>
-        <p>Individuos o entidades responsables de la gestión y operación de los servicios de transporte público.</p>
-    </td>
-    <td>
-        <p style = "font-weight: bold">User Benefits</p>
-        <ul>
-            <li>Acceso a información en tiempo real sobre horarios y disponibilidad de buses.</li>
-            <li>Mejora en la seguridad y la eficiencia del viaje.</li>
-            <li>Opciones de pago flexibles y seguras.</li>
-            <li>Experiencia de usuario intuitiva y fácil de usar.</li>
-        </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p style = "font-weight: bold">Hypothesis</p>
-        <p>Creemos que si proporcionamos información en             tiempo real sobre los horarios de llegada de             los buses, los usuarios del transporte público            en Lima podrán planificar sus viajes de manera            más eficiente y estarán más satisfechos con el            servicio.
-           Sabremos que estamos en lo correcto
-           Cuando observemos una disminución en las                 quejas sobre retrasos y tiempos de espera                prolongados.</p>
-        <p>Creemos que al ofrecer datos precisos sobre la            capacidad de los buses, los pasajeros podrán             evitar abordar vehículos llenos, lo que                  mejorará su experiencia de viaje y aumentará             su satisfacción.
-           Sabremos que estamos en lo correcto
-           Cuando notemos una disminución en el número de            usuarios que reportan buses congestionados y             una mayor utilización de la funcionalidad de             visualización de capacidad de los buses en la            aplicación.</p>
-        <p>Creemos que si implementamos herramientas de             monitoreo para los conductores de buses,                 podremos mejorar la seguridad y la eficiencia            en las rutas de transporte público. 
-           Sabremos que estamos en lo correcto
-           Cuando observemos una reducción en los                   incidentes de seguridad reportados y un                  aumento en la puntualidad de los buses.</p>
-        <p>Creemos que al ofrecer un servicio premium con            características adicionales, como la reserva             de asientos y alertas de bus lleno, podremos             satisfacer las necesidades de los usuarios               dispuestos a pagar por una experiencia                   mejorada.
-           Sabremos que estamos en lo correcto
-           Cuando observemos un aumento en el número de             usuarios que optan por suscribirse al servicio            premium y un aumento en los ingresos generados            por estas suscripciones.</p>
-        <p>Creemos que si desarrollamos una aplicación              móvil intuitiva y fácil de usar para acceder a            la información del transporte público en Lima,            podremos mejorar la experiencia del usuario y            aumentar la adopción de la aplicación.
-           Sabremos que estamos en lo correcto
-           Cuando observemos un aumento en el número de             descargas de la aplicación y una mayor                   retención de usuarios a largo plazo.</p>
-    </td>
-    <td>
-        <p style = "font-weight: bold">What's the most important thing we need to learn first?</p>
-        <lu>
-            <li>La aceptación del mercado hacia la nueva aplicación móvil para el transporte público.</li>
-            <li>Las principales necesidades y preferencias de los usuarios del transporte público en Lima.</li>
-            <li>La disposición de los conductores de buses para adoptar nuevas herramientas de monitoreo y mejorar la seguridad en las rutas.</li>
-            <li>La viabilidad de implementar un servicio premium y la disposición de los usuarios a pagar por características adicionales.</li>
-            <li>La eficacia de la aplicación móvil en mejorar la experiencia general del usuario del transporte público.</li>
-        </lu>
-    </td>
-    <td>
-        <p style = "font-weight: bold">What's the least amount of work we need to do to Learn the most important thing?</p>
-        <lu>
-            <li>Realizar encuestas rápidas a usuarios del transporte público para evaluar su disposición a utilizar una nueva aplicación móvil.</li>
-            <li>Organizar grupos focales con conductores de buses para discutir la implementación de herramientas de monitoreo y sus posibles preocupaciones.</li>
-            <li>Lanzar una versión piloto de la aplicación móvil con funcionalidades básicas para recopilar comentarios de los usuarios sobre su utilidad y usabilidad.</li>
-            <li>Realizar análisis de mercado para identificar la demanda potencial de un servicio premium y evaluar la disposición de los usuarios a pagar por características adicionales.</li>
-            <li>Observar el comportamiento de los usuarios del transporte público en cuanto a su interacción con las aplicaciones móviles existentes y analizar las áreas de mejora identificadas.</li>
-        </lu>
-    </td>
-  </tr>
+<table><tr><th valign="top"><p>Business Problem</p><p>Hemos identificado un factor crítico que afecta la satisfacción del cliente: la ausencia de una aplicación web o móvil que centralice de manera clara la información sobre horarios y ubicaciones en los cines independientes.</p><p>¿Cómo podemos desarrollar una aplicación web o móvil que centralice de manera eficiente y clara la información sobre horarios y ubicaciones en los cines independientes, promoviendo así el cine alternativo y otorgándole la relevancia que merece en la industria cinematográfica peruana?</p></th><th rowspan="2" valign="top"><p>Solution Ideas</p><p>- Desarrollo de una aplicación web que permita la visualización de horarios de funciones para películas poco conocidas en distintos cineclubes.</p><p>- Implementación de funciones de compra y/o reserva de entradas para funciones en cineclubes.</p><p>- El usuario puede cancelar una reserva hasta 8 horas antes del inicio de la función.</p><p>- Implementación de un sección de comentarios/discusión en los perfiles de las películas y cineclubs.</p><p>- Usuario administrador para el propietario del cineclub.</p><p>- El usuario administrador podrá editar el perfil de su negocio.</p></th><th valign="top"><p>Business Outcomes</p><p>- Brindar información fiable de la mayor cantidad de centros que ofrezcan cine alternativo en sus productos.</p><p>- Que los usuarios se sientan más cómodos y consideren este tipo de cine como una opción para la recreación.</p><p>- Generación de ganancias monetarias por comisiones en reservas y compra de entradas.</p></th></tr>
+<tr><td valign="top"><p>Users & Customers</p><p><b>Cinéfilo:</b> Personas en un rango de 18 a 50 años que tienen preferencia por películas clásicas o poco convencionales.</p><p><b>Propietarios de cineclubes:</b> Propietarios de centros abiertos al público donde se transmite filmes de cine alternativo.</p></td><td valign="top"><p>User Benefits</p><p>- Un espacio donde conseguir información acerca de los cines alternativos ubicados en el país, servicios y películas que ofrecen.</p><p>- Acceso a descuentos con códigos promocionales y ofertas lanzadas por las cadenas de cine.</p></td></tr>
+<tr><td valign="top"><p>Hypothesis</p><p>Creemos que implementando una sección de perfil de cineclub incrementará la fiabilidad del establecimiento</p><p>Sabremos que esto es cierto</p><p>Cuando se incrementen la cantidad de reservas en dicho establecimiento.</p><p></p><p>Creemos que implementando una sección de perfil de película se incrementará su visibilidad</p><p>Sabremos que esto es cierto</p><p>Cuando se la cantidad de reservas para esa película incremente en un 10%.</p><p></p><p>Creemos que, al implementar una sección de comentarios en el perfil de  cineclubs se incrementará la confiabilidad y popularidad</p><p>Sabremos que es un éxito</p><p>Cuando se la cantidad de reservas en el establecimiento se incremente en un 10%.</p></td><td valign="top"><p>What’s the most important thing we need to learn first?</p><p>- Información acerca de los cines alternativos y servicios adicionales que ofrece.</p><p>- Información acerca del manejo de información y políticas de seguridad asociadas a aplicaciones que manejan grandes cantidades de datos.</p><p>- Métodos actuales de distribución y compra de entradas para películas en cineclubes y centros de cine alternativo.</p></td><td valign="top"><p>What’s the least amount of work we need to do to Learn the next most important thing?</p><p>- Entrevistas a diferentes segmentos involucrados en el proceso.</p><p>- Encuestas a usuarios finales.</p><p>- Búsqueda y recapitulación de información acerca de lugares que ofrezcan cine alternativo y los beneficios que ofrecen a sus usuarios.</p><p></p></td></tr>
 </table>
+
+
 
 ## 1.3 Segmentos Objetivos
 
