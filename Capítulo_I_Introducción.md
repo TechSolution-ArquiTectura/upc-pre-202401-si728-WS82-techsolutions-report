@@ -113,32 +113,27 @@ y otorgándole la relevancia que merece en la industria cinematográfica peruana
 
 #### 1.2.2.2 Lean UX Assumptions
 
-<p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
-
-- Los usuarios del transporte público valoran la puntualidad y la disponibilidad de información en tiempo real sobre los horarios de llegada de los buses.
-- Existe una demanda por parte de los pasajeros de tener acceso a datos precisos sobre la capacidad de los buses para evitar abordar vehículos llenos.
-- Los conductores de buses están dispuestos a utilizar herramientas de monitoreo para mejorar la seguridad y la eficiencia en sus rutas.
-- Los usuarios están dispuestos a pagar por un servicio premium que les ofrezca características adicionales, como la reserva de asientos o la recepción de alertas de bus lleno.
-- Los usuarios desean una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima.
-- Los usuarios aprecian la transparencia y la comunicación proactiva por parte de las autoridades de transporte en caso de interrupciones del servicio o cambios en las rutas.
-- Existe una necesidad entre los usuarios de información en tiempo real sobre eventos o situaciones que puedan afectar el servicio de transporte, como manifestaciones o accidentes de tráfico.
+Creemos que los clientes necesitan información detallada y variada de los cines y las películas que proyectan en sus establecimientos, lo cual brindaría mayor confiabilidad en la elección de su preferencia.
+-	Estas necesidades se pueden resolver con una plataforma que puede integrar la mayor información posible de cines que ofrezcan un servicio de proyección de cine alternativo.
+-	Los clientes son personas que les gusta el arte y que tienen necesidades de compresión y recreación de la realidad.
+-	El cliente puede obtener beneficios de descuentos a través de un código promocional.
+-	Nuestra competencia principal en el mercado será otras aplicaciones que permiten observar y comparar información de más de un cine a la vez.
+-	Los venceremos gracias a la personalización de nuestro servicio y la buena coordinación en la ejecución del servicio.
+-	El mayor riesgo de producto es que se produzcan inconvenientes al actualizar la información de la capacidad de aforo en tiempo real.
+-	Resolveremos esto con un servicio Cloud de alta disponibilidad.
 
 Features:
-- Dueños de empresas de transporte:
-	- Registro y creación de perfiles de empresa de transporte.
-	- Monitoreo de actividad del conductor mediante sensores de pulso y acelerómetro.
-	- Monitoreo de velocidad de los buses para garantizar la seguridad y el cumplimiento de los horarios.
-	- Visualización de horarios de paraderos con mayor afluencia de pasajeros para una mejor planificación de rutas.
+-	Cada cineclub contará con su propio perfil en el cual se detallará el tipo de servicio que ofrece, una reseña, los horarios de atención y las películas que proyectaran.
+-	El perfil de cineclub contará con una sección de comentarios, en la cual el usuario podrá compartir su experiencia en el establecimiento. Además, el usuario podrá dar “Like” a los comentarios de su agrado y responder a otro comentario.
+-	El usuario “Propietario de cineclub” tendrá el rol de administrador y podrá modificar información relacionada al perfil de su negocio.
+-	Cada película contará con su propio perfil en el cual se detallará información relevante, como sinopsis, actores, premios, entre otros. También contará con una tabla en la cual se podrá observar la información de proyección (fecha, horario, cineclub, entre otros).
+-	Contará con una sección de promociones, las cuales serán propuestas por los cineclubs.
+-	Lo “Propietario de cineclub” podrán agregar funciones de proyección desde el perfil del cineclub.
+-	El perfil de la película contará con una sección de comentarios, en la cual el usuario podrá compartir su opinión. Además, el usuario podrá dar “Like” a los comentarios de su agrado y responder a otro comentario.
+-	Por medio de la aplicación se podrá realizar reservas para la proyección de la películas. Los asientos son asignados acorde el orden de llegada.
+-	La cancelación de las reservas se podrá realizar hasta 8 horas antes del inicio de la proyección de la películas.
+-	Cada usuario tendrá un perfil personalizado con su información personal y podrá ser editada de la manera que desee.
 
-- Pasajeros:
-	- Aplicación móvil con inicio de sesión para una experiencia personalizada.
-	- Visualización en tiempo real del tiempo estimado de llegada de los buses a los paraderos.
-	- Indicadores de aforo de los buses basados en sensores de peso para evitar vehículos congestionados.
-	- Función de Guardar Favoritos para destinos frecuentes, como casa o trabajo.
-	- Alertas de bus lleno para ayudar a los pasajeros a evitar buses con capacidad completa.
-	- Funcionalidad de trazar rutas y obtener direcciones para llegar a destinos específicos.
-	- Visualización de paraderos oficiales en un mapa interactivo para facilitar la navegación.
-	- Listado de líneas de transporte con información detallada sobre rutas y horarios.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
