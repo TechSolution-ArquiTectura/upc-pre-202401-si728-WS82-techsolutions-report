@@ -59,48 +59,36 @@ Además, nuestra solución se orienta a satisfacer las necesidades del negocio a
 
 ### 4.1.4 Architectural Design Decisions.
 
-| Driver ID | Título de Driver        | Pattern 1 - Tokenization                    | Pattern 2 - Attribute-Based Access Control       | Pattern 3 - Privacy by Design               |
-|-----------|-------------------------|---------------------------------------------|--------------------------------------------------|---------------------------------------------|
-| AD01      | Cumplimiento con RGPD   | Pro: Alta seguridad de los datos           | Pro: Control granular sobre el acceso a los datos | Pro: Enfoque integral para protección de datos |
-|           |                         | Con: Mayor complejidad de implementación   | Con: Configuración inicial compleja               | Con: Requiere cambios en el diseño de la aplicación |
-|-----------|-------------------------|---------------------------------------------|--------------------------------------------------|---------------------------------------------|
-| Driver ID | Título de Driver        | Pattern 1 - Secure Socket Layer            | Pattern 2 - Tokenization                         | Pattern 3 - Firewall de aplicaciones web |
-|-----------|-------------------------|---------------------------------------------|--------------------------------------------------|---------------------------------------------|
-| AD02      | Cumplimiento con PCI DSS | Pro: Seguridad en la comunicación          | Pro: Seguridad en la manipulación de datos sensibles | Pro: Protección contra ataques web        |
-|           |                         | Con: Consumo de recursos                   | Con: Complejidad en la implementación             | Con: Configuración inicial compleja      |
+| Scenario Refinement for Scenario 1: Acceso Rápido al Catálogo de Películas |
+|------------------------------------------------------------------------------|
+| **Scenario(s)**: Acceder al catálogo de películas en menos de 3 segundos.  |
+| **Business Goals**: Mejorar la satisfacción del usuario al proporcionar una experiencia de usuario fluida y eficiente. |
+| **Relevant Quality Attributes**: Usabilidad, Rendimiento.                   |
+| **Scenario Components**:                                                     |
+|------------------------------------------------------------------------------|
+| **Component**        | **Description**                                          | **Stimulus**  |
+|----------------------|----------------------------------------------------------|---------------|
+| **Stimulus Source**  | El usuario abre la aplicación y selecciona la opción "Catálogo de películas". | Usuario |
+| **Environment**      | Plataforma web                                           |               |
+| **Artifact**         | Interfaz de usuario (página de catálogo de películas)   |               |
+| **Response**         | La página del catálogo de películas se carga en menos de 3 segundos. |           |
+| **Response Measure** | Tiempo de carga de la página.                            |               |
 
+| Scenario Refinement for Scenario 2: Reserva de Boletos en Cineclubes      |
+|----------------------------------------------------------------------------|
+| **Scenario(s)**: Reservar un boleto para una película sin errores.        |
+| **Business Goals**: Asegurar una experiencia de usuario sin problemas al reservar boletos. |
+| **Relevant Quality Attributes**: Fiabilidad, Seguridad.                   |
+| **Scenario Components**:                                                  |
+|----------------------------------------------------------------------------|
+| **Component**        | **Description**                                          | **Stimulus**  |
+|----------------------|----------------------------------------------------------|---------------|
+| **Stimulus Source**  | El usuario selecciona una película y elige la opción de reservar boletos. | Usuario |
+| **Environment**      | Plataforma web                                           |               |
+| **Artifact**         | Sistema de reserva de boletos.                           |               |
+| **Response**         | El sistema completa la reserva de boletos sin errores.   |               |
+| **Response Measure** | Porcentaje de reservas completadas sin errores.          |               |
 
-### 4.1.5. Quality Attribute Scenario Refinements.
-
-| Scenario Refinement for Scenario 1: Acceso Rápido al Catálogo de Películas                                  |
-|----------------------------------------------------------------------------------------------------------------|
-| Scenario(s): Acceder al catálogo de películas en menos de 3 segundos.                                          |
-| Business Goals: Mejorar la satisfacción del usuario al proporcionar una experiencia de usuario fluida y eficiente. |
-| Relevant Quality Attributes: Usabilidad, Rendimiento.                                                           |
-| Scenario Components:                                                                                           |
-|----------------------------------------------------------------------------------------------------------------|
-| Component        | Description                                           | Stimulus                                         |
-|------------------|-------------------------------------------------------|--------------------------------------------------|
-| Stimulus Source | El usuario abre la aplicación y selecciona la opción "Catálogo de películas". | Usuario |
-| Environment      | Plataforma web                                        |                                                  |
-| Artifact         | Interfaz de usuario (página de catálogo de películas) |                                                  |
-| Response         | La página del catálogo de películas se carga en menos de 3 segundos.            |                                                  |
-| Response Measure | Tiempo de carga de la página.                          |                                                  |
-
-| Scenario Refinement for Scenario 2: Reserva de Boletos en Cineclubes                                          |
-|----------------------------------------------------------------------------------------------------------------|
-| Scenario(s): Reservar un boleto para una película sin errores.                                                 |
-| Business Goals: Asegurar una experiencia de usuario sin problemas al reservar boletos.                            |
-| Relevant Quality Attributes: Fiabilidad, Seguridad.                                                           |
-| Scenario Components:                                                                                           |
-|----------------------------------------------------------------------------------------------------------------|
-| Component        | Description                                           | Stimulus                                         |
-|------------------|-------------------------------------------------------|--------------------------------------------------|
-| Stimulus Source | El usuario selecciona una película y elige la opción de reservar boletos.   | Usuario |
-| Environment      | Plataforma web                                        |                                                  |
-| Artifact         | Sistema de reserva de boletos.                        |                                                  |
-| Response         | El sistema completa la reserva de boletos sin errores. |                                                  |
-| Response Measure | Porcentaje de reservas completadas sin errores.        |                                                  |
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 
