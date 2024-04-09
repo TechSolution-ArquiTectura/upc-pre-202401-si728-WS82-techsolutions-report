@@ -251,6 +251,18 @@ Cada alternativa se discutió con la intención de llegar a la mejor aproximaci�
 
 ### 4.3.1. Software Architecture Context Level Diagrams.
 
+El presente diagrama de contexto tiene como objetivo ofrecer una visión panorámica y de alto nivel del
+sistema que se está analizando. Este sistema se sitúa en el centro del diagrama, mientras que las entidades
+externas con las que interactúa se representan como cajas externas. Estas entidades pueden ser usuarios,
+otros sistemas, bases de datos, servicios externos, entre otros. La finalidad de este diagrama es proporcionar
+una comprensión clara y concisa de las interacciones clave del sistema con su entorno, permitiendo identificar
+los principales flujos de información y las interfaces externas involucradas. A través de esta representación
+visual, se busca facilitar el entendimiento inicial del sistema y sentar las bases para un análisis más detallado
+de sus componentes y relaciones en niveles subsiguientes de la metodología C4.
+
+
+![C4-System Context Level Diagram](https://i.ibb.co/GRWNQbR/C4-Arqui-2.png)
+
 ### 4.3.2. Software Architecture Container Level Diagrams.
 
 ### 4.3.3. Software Architecture Deployment Diagrams.
