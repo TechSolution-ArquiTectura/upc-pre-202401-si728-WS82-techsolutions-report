@@ -275,6 +275,8 @@ a entender qué hace cada parte del sistema y cómo interactúan entre ellas.
 ![C4-Container Level Diagram](https://i.ibb.co/y5VjmHG/C4-Arqui-3.png)
 
 ### 4.3.3. Software Architecture Deployment Diagrams.
+
+![C4-Deployment Diagram](https://i.ibb.co/QKdQwMx/C4-Arqui-4.png)
  
 
 
