@@ -163,28 +163,23 @@ Features:
 
 ## 1.3 Segmentos Objetivos
 
-    Nuestra solución, ChapaTuBus, se enfocará principalmente hacia 2 segmentos objetivos claramente definidos. 
+Como definimos anteriormente, nuestra solución se dirigirá principalmente hacia 2 segmentos bien definidos los cuales son:
 
-##### Dueños de empresas de transporte público :
-    Este segmento está compuesto por los propietarios y gestores de empresas de transporte público.
-    Generalmente, se encuentran ubicados en áreas de oficinas y son responsables de la administración
-    y operación de los buses que circulan en Lima y Callao. Su interés principal es mejorar la eficiencia,
-    seguridad y rentabilidad de sus flotas, por lo que ChapaTuBus les proporcionará herramientas
-    de monitoreo y gestión en tiempo real para optimizar sus servicios.
+##### Cinéfilo: 
+    Son personas con un rango de edad entre 18 a 50 años, los que tienen una mayor preferencia por películas
+	clásicas, poco convencionales. Todo este sector social busca compartir o disfrutar otro tipo de contenido 
+	mucho más realista y que pueda influir de manera crítica. Por esta razón, el cinéfilo se ha considerado
+	como un segmento objetivo.
 
-##### Pasajeros :
-    Este segmento está integrado por los usuarios habituales del transporte público en Lima Metropolitana. 
-    Según el Instituto de Economía y Desarrollo Empresarial (IEDEP), aproximadamente el 75% de los ciudadanos 
-    de Lima y Callao utilizan el transporte público para sus desplazamientos diarios. Nos enfocaremos en usuarios
-    con edades comprendidas entre los 15 y 60 años, que representan la mayoría de la población activa y estudiantes. 
-    ChapaTuBus les ofrecerá una experiencia de viaje mejorada mediante información en tiempo real sobre el aforo, 
-    tiempo de espera y estado del servicio, facilitando así la planificación y optimización de sus trayectos.
+##### Propietarios de cineclubes :
+    Cuando hablamos de este concepto nos referimos a una forma de hacer arte visual cinemático que escapa 
+	de muchas maneras a los cánones establecidos por la industria del cine masivo y popular. Ya que busca
+	expresar otro tipo de contenidos, de complejidades más elaboradas y profundas, de realidades duras y 
+	las emociones más anuladas en el cine masivo y tecnológico. Por esta razón, el cine alternativo se ha
+	considerado como un segmento objetivo. 
 
-ChapaTuBus se posiciona como una solución integral que busca satisfacer las necesidades y demandas de dos segmentos
-clave en el ecosistema del transporte público: los dueños de empresas de transporte y los pasajeros. Para los dueños
-de empresas, ofrecemos herramientas avanzadas de monitoreo y gestión que les permiten optimizar la eficiencia y rentabilidad
-de sus flotas. Por otro lado, para los pasajeros, proporcionamos una experiencia de viaje mejorada a través de información en
-tiempo real sobre el aforo, tiempo de espera y estado del servicio, facilitando así la planificación y optimización de sus trayectos diarios.
-
-Con este enfoque dual, ChapaTuBus aspira a transformar y mejorar significativamente el panorama del transporte público en Lima y Callao,
-contribuyendo a un servicio más eficiente, seguro y cómodo para todos los involucrados.
+Actualmente, este tipo de cine viene siendo muy prematuro para nuestro país, por lo que no se puede
+encontrar información fiable, más que en blogs, post de internet, etc.: de los propios lugares que
+realizan estas presentaciones. Es por ello por lo que crear una base de datos la cual contenga
+información de los géneros de estas películas, información de los cines, lugares, beneficios,
+nos ayudará a poder ganar la confianza de nuestro segmento objetivo.
