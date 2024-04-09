@@ -256,38 +256,133 @@ El entrevistado respondió todas las preguntas adecuadamente y proporcionó una 
 
 ### 2.2.3 Análisis de entrevistas
 
+### Análisis de entrevistas realizadas al segmento objetivo conformado por los cinéfilos:
+
+|Pregunta|Respuesta|
+| :-: | :-: |
+|¿Con qué frecuencias asiste al cine?|El 100% de los entrevistados asegura asistir al menos una vez a la semana al cine.|
+|¿Qué días de la semana suele ir?|El 100% de los entrevistados asegura que usualmente asisten a las funciones de los fines de semana. Adicionalmente, un 66% de los participantes afirma que en ocasiones asiste los jueves.|
+|¿Cuáles son los géneros de películas que más prefiere?|Un 33% respondió que prefiere las películas de suspenso e historia peruana. Otro 33% prefiere el género de acción, terror y fantasía. El 33% restante prefiere comedia y drama.|
+|¿Alguna vez escuchó del cine alternativo? ¿Qué entiende por el término?|El 100% de los participantes es seguidor del cine alternativo o independiente. Todos dan una definición que ronda el concepto de cine producido con menor presupuesto o poco comerciales, y con un público objetivo de nicho o local.|
+|¿Cuáles son los motivos por los que suele preferir este tipo de cine?|El 100% de los entrevistados fue en algún momento seguidor del cine alternativo, adicionalmente, todos afirman haber comenzado a conocer este género por la influencia de las películas peruanas y/o filmes asiáticos. De este porcentaje, un 33% asegura preferir el cine alternativo por ser seguidor de la historia peruana, y otro 33% asegura que actualmente considera dicha industria como poco entretenida.|
+|¿Conoce los cineclubes? ¿Alguna vez asistió a alguno?|El 100% asegura conocer y haber asistido sobre los cineclubes.|
+|¿Qué tipo de cineclubes conoce? (Auditorio de universidades, centros culturales, cafés, auto cinemas, restobares, etc.)|El 100% de los entrevistados asegura haber asistido a los cineclubes organizados por la universidad. De ellos, un 33% asegura conocer cineclubes organizados por centros culturales y de idiomas.|
+|¿Por qué decidió asistir a cineclubes, en lugar de asistir a un cine tradicional?|Un 66% de los entrevistados asegura haberse inscrito a cineclubes de manera voluntaria con el objetivo de formar parte de una comunidad. El 33% restante indica que asistió a un cineclub con propósitos recreativos durante su tiempo libre.|
+|¿Cómo califica su experiencia en alguno de estos lugares? ¿Volvería a ir? ¿Qué se podría mejorar?|El 100% de los entrevistados califica su experiencia en los cineclubes como placentera, y aseguran que volverían a ir si se da la oportunidad. Adicionalmente, todos consideran que podría ampliarse el espacio de los cineclubes organizados por las universidades.|
+|¿Cuán complicado fue para usted encontrar información acerca de las funciones, como ubicación, horarios, cartelera, etc.? ¿En qué medio lo encontró? (Blogs, noticias, redes sociales, etc.)|El 100% asegura que los cineclubes son difíciles de encontrar debido a la falta de publicidad. De este segmento, el 33% busca información sobre estas organizaciones en internet, mientras que el 66% restante encontró el cineclub por referencia de amigos de su universidad.|
+|¿Prefiere adquirir sus boletos de forma presencial o en línea? ¿Por qué?|El 100% de los entrevistados prefiere adquirir boletos de forma virtual, debido a la comodidad que ofrece utilizar una plataforma de venta en línea.|
+|¿Utiliza alguna aplicación relacionada al mundo cinematográfico? ¿Cuáles?|El 100% asegura utilizar aplicaciones de compra de entradas a funciones, entre ellas mencionan Cineplanet, Cinemark, etc.|
+|¿Cuál es el canal más cómodo por el cual suele obtener información acerca de estrenos de películas?|El 66% de los entrevistados prefiere utilizar páginas web o aplicaciones. El 33% restante utiliza redes sociales.|
+|Finalmente, el mundo de streaming está en constante crecimiento, por lo cual numerosas plataformas ofrecen el servicio de ver sus películas favoritas en la comodidad de su casa. En su caso ¿Cambiaría completamente la experiencia que ofrece el cine por la comodidad de su casa? ¿Por qué?|El 100% asegura utilizar plataformas de streaming. Adicionalmente, aseguran que disfrutan de las ventajas que supone ver películas desde la comodidad de la casa, pero que no cambiarían completamente la experiencia que ofrece el cine. Todos los entrevistados aseguran que ver una película en grupo y en una sala de cine es una actividad gratificante que no puede ser reemplazada.|
+
+
+### Análisis de entrevistas realizadas al segmento objetivo conformado por los propietarios de cineclubes:
+
+|Pregunta|Respuesta|
+| :-: | :-: |
+|¿Qué tipo de servicios ofrece en su establecimiento? |El 100% de los establecimientos ofrece proyección de películas de culto y/o venta de alimentos.|
+|¿Qué tipo de experiencia desea ofrecer a los asistentes en su negocio?|El 100% de los dueños de cineclubes proyectan películas para dar una atmósfera de cine en casa.|
+|¿Qué días son los más concurridos?|El 75% menciona que los días más concurridos son los fines de semana. Las respuestas rondan los viernes, sábado y domingo por la tarde.|
+|¿Cuál es el canal por el que promociona su cineclub?|El 75% promociona el cineclub por medios digitales, principalmente redes sociales. El 25% restante no cuenta con anuncios ni ha contratado empresas publicitarias.|
+|¿Es la proyección de películas el principal ingreso monetario de su negocio?|El 75% de los entrevistados asegura que el principal ingreso monetario se basa en la venta de entradas a películas. Adicionalmente, mencionan que la fuente secundaria de ingresos es la venta de confitería.|
+|¿Cuál es el beneficio que espera al ofrecer un cine alternativo? |El 75% de los entrevistados asegura que el principal beneficio que ofrecen son los bajos costos a comparación de las salas de cine comerciales. El 25% restante indica que el beneficio recae en ser uno de los pocos locales con un enfoque pleno en difundir los filmes de dramaturgos peruanos.|
+|¿Alguna vez se asoció con alguna empresa o aplicación en el rubro cinematográfico para promocionar su cineclub?|Ninguno de los entrevistados (0%) ha formado alianzas con empresas de cine para promocionar el cineclub. Sin embargo, están abiertos a la posibilidad de hacerlo en caso de que se dé la oportunidad.|
+|¿Considera que la concurrencia actual a su establecimiento es suficiente para alcanzar su objetivo económico? ¿Por qué?|El 75% de los participantes considera que deberían de aumentar la afluencia para alcanzar los objetivos económicos, El 25% restante está satisfecho con el nivel de concurrencia actual, sin embargo, este mismo grupo comunica haber tenido inconvenientes para recuperar el número de participantes después del contexto de pandemia.|
+|En los últimos años debido a la pandemia provocada por el COVID-19 las plataformas de streaming han comenzado a surgir con más fuerza. En su caso ¿Se ha visto afectado de alguna forma debido a ello? ¿Cómo?|El 100% asegura que el surgimiento de plataformas de streaming contribuyó a dar mayor visibilidad a las películas de cine alternativo. Finalmente, los entrevistados no consideran que el streaming de filmes haya afectado de manera significativa al negocio, ya que consideran que asistir a cineclubes es una experiencia difícil de reemplazar.|
+
+
 ## 2.3 Needfinding
 
 ### 2.3.1 User Personas
 
+![UserPersona_Cinéfilo](https://i.ibb.co/02TGPLw/user-persona-1.png)
+
+![UserPersona_Propietario_Cineclub](https://i.ibb.co/q9N21Wz/user-persona-2.png)
+
 ### 2.3.2 User Task Matrix
+
+El siguiente cuadro muestra las tareas que completan los segmentos objetivos de la aplicación web para llevar a cabo sus actividades de funcionamiento y/o entretenimiento.
+
+<table><tr><th colspan="1" rowspan="2">Task Matrix</th><th colspan="2">Cinéfilo</th><th colspan="2">Cineclub</th></tr>
+<tr><td colspan="1">Frecuencia</td><td colspan="1">Importancia</td><td colspan="1">Frecuencia</td><td colspan="1">Importancia</td></tr>
+<tr><td colspan="1"><b>Buscar horarios de filmes, cortometrajes y películas.</b></td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Seleccionar película basado en filtros.</b></td><td colspan="1">Media</td><td colspan="1">Alta</td><td colspan="1">Baja</td><td colspan="1">Baja</td></tr>
+<tr><td colspan="1"><b>Ver y elegir precios de entradas</b></td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Consultar promociones</b></td><td colspan="1">Alta</td><td colspan="1">Media</td><td colspan="1">Alta</td><td colspan="1">Media</td></tr>
+<tr><td colspan="1"><b>Recibir confirmación de compra de tickets</b></td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Imprimir entrada</b></td><td colspan="1">Baja</td><td colspan="1">Media</td><td colspan="1">Media</td><td colspan="1">Media</td></tr>
+<tr><td colspan="1"><b>Guardar historial de métodos de pago</b></td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Valorar experiencia</b></td><td colspan="1">Media</td><td colspan="1">Alta</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Cancelar reserva</b></td><td colspan="1">Baja</td><td colspan="1">Media</td><td colspan="1">Media</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Administrar horarios de filmes</b></td><td colspan="1">Baja</td><td colspan="1">Baja</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+<tr><td colspan="1"><b>Gestionar promociones</b></td><td colspan="1">Baja</td><td colspan="1">Baja</td><td colspan="1">Alta</td><td colspan="1">Alta</td></tr>
+</table>
+
+Leyenda:
+
+- Frecuencia:
+  - Alta: Se realiza de forma frecuente.
+  - Media: Se realiza de forma medianamente frecuente.
+  - Baja: Se realiza esporádicamente / no se realiza.
+- Importancia:
+  - Alta: La tarea es esencial para el usuario y debe ser realizada sin dificultades.
+  - Media: La tarea es importante, pero puede haber cierto grado de flexibilidad en la ejecución.
+  - Baja: La tarea no es crítica y puede haber margen para la simplificación o automatización.
 
 ### 2.3.3 User Journey Mapping
 
+El User Journey Map brinda la representación gráfica de la experiencia de los usuarios al interactuar con “TuCine” a lo largo del tiempo. Las líneas de tiempo explican paso a paso las etapas que los usuarios deben atravesar desde que identifican la necesidad hasta alcanzar su objetivo. Adicionalmente, nos permite identificar las oportunidades de mejora y crear soluciones centradas en nuestros usuarios.
+
+### Segmentos cinéfilos:
+
+![UserJourney](https://i.ibb.co/bJW1ktD/user-journey.png)
+
+Enlace: [https://drive.google.com/file](https://drive.google.com/file/d/1sM5LPO9v7U6BHIm7C4LJev_DzFw06aXM/view?usp=sharing)
+
+### Segmento dueño de cineclub:
+
+![User Journey 2](https://i.ibb.co/3yhHSNb/user-journey-2.png)
+
+Enlace: [https://drive.google.com/file](https://drive.google.com/file/d/1jpX5ZBs9hTR8VVeAiLGlDLi59ZaHfxCb/view?usp=sharing)
+
+Durante esta línea temporal, el usuario dueño de cineclub identifica una problemática en su negocio. Dicha problemática debe ser solucionada para el buen funcionamiento del negocio, donde nuestra página cumple con los requisitos para ayudarlo. Para ello debe registrarse y hacer uso completo de los servicios ofrecidos. Para finalmente solucionar su problemática.
+
+
 ### 2.3.4 Empathy Mapping
+
+
+![Cinéfilos Empathy Mapping](https://i.ibb.co/Sycsnjz/empathy-map-1.png)
+
+![Propietario de Cineclub Empathy Mapping](https://i.ibb.co/yd2Xx2D/empathy-map-2.png)
 
 ### 2.3.5 As-Is Scenario Mapping
 
-#### 2.3.5.1 Pasajeros
+El "As-Is Scenario Mapping" es una técnica o proceso utilizado en análisis y gestión empresarial para 
+comprender y representar visualmente el estado o situación actuales de un sistema, proceso, producto 
+o cualquier otro aspecto dentro de una organización. Esta técnica se centra en mapear cómo se están
+llevando a cabo las operaciones y actividades en el presente, con el fin de identificar fortalezas,
+debilidades, oportunidades y desafíos. Ahora presentamos el As-is Scenario de nuestros 2 segmentos:
 
-![Pasajeros As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20pasajeros.jpg)
+#### 2.3.5.1 Cinéfilo
 
-#### 2.3.5.2 Empresa de transporte público
+![Cinefilo As-Is Scenario](https://i.ibb.co/svgjr05/Aspose-Words-d07f23ee-fd04-40ea-a788-d22a1deb0800-018.png)
 
-![Empresa de transporte público As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20empresas.jpg)
+#### 2.3.5.2 Propietario de Cineclub
+
+![Propietario Cineclub As-Is Scenario](https://i.ibb.co/rfPvgMM/Aspose-Words-d07f23ee-fd04-40ea-a788-d22a1deb0800-019.png)
 
 ## 2.4 Ubiquitous Language
 
 
-**Dominio:** Transporte público
+**Dominio:** Cineclubs 
 
-**Términos:**
-
-- **ChapaTuBus:** Solución IoT para mejorar la experiencia del usuario en el transporte público.
-- **Sensor de aforo:** Dispositivo que detecta la cantidad de personas que hay dentro del bus en tiempo real.
-- **Tiempo de circulación:** Tiempo que tarda el bus en completar su recorrido.
-- **Tiempo de espera:** Tiempo que los pasajeros esperan en el paradero hasta que llega el bus.
-- **Aplicación móvil:** Aplicación que los pasajeros pueden usar para acceder a la información de ChapaTuBus.
-- **Pulsera inteligente:** Dispositivo que el conductor usa para monitorizar su estado de fatiga y estrés.
-- **Alerta de bus lleno:** Notificación que se envía a los pasajeros cuando un bus está a punto de llegar y ya no tiene capacidad para más personas.
-- **Ruta:** Camino que sigue el bus para llegar a su destino.
+-Película: Se refiere al contenido cinematográfico proyectado en las salas de cine.
+-Sala: Espacio físico dentro del cine donde se proyectan las películas.
+-Función: Horario específico en el que se proyecta una película.
+-Entrada: Boleto o ticket que permite el acceso a una función de cine.
+-Popcorn: Palomitas de maíz, un snack popular en los cines.
+-Combo: Combinación de productos como popcorn, bebidas y otros snacks ofrecidos a los espectadores.
+-Estreno: Lanzamiento de una nueva película en las salas de cine.
+-Cinéfilo: Persona apasionada por el cine.
+-Promoción: Oferta especial o descuento en entradas, combos o eventos.
+-Reserva: Acción de apartar o asegurar una entrada o asiento para una función específica.
