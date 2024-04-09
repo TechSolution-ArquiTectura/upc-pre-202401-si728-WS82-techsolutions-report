@@ -60,34 +60,40 @@ El equipo en conjunto se decidió por nombrar a la aplicación TuCine. Está apl
 
 - What? (¿Qué?)
 
-	<p align = "justify">La problemática del transporte público en Lima, Perú, afecta a múltiples personas y se manifiesta en una serie de deficiencias que impactan negativamente la calidad de vida de la población. Los ciudadanos que viajan a través del transporte público enfrentan una experiencia desafiante marcada por largos tiempos de espera en paraderos abarrotados, la incomodidad de abordar buses llenos y la incertidumbre sobre la disponibilidad de espacio en los vehículos. Además, la falta de información precisa y actualizada sobre las rutas, horarios y frecuencia de los buses agrava la situación, generando frustración y malestar entre los pasajeros. 
-	Por otro lado, los conductores del transporte público se encuentran en condiciones precarias, enfrentando largas jornadas laborales, estrés y una remuneración insuficiente. La presión por cumplir con los horarios en un contexto de tráfico congestionado contribuye a un ambiente laboral tenso y poco seguro.
-	Adicionalmente, la congestión vehicular en horarios altamente concurridos en ciertas zonas que recorre el transporte público aumenta los tiempos de viaje, generando estrés y pérdida de tiempo para los ciudadanos, lo cual impacta negativamente en la experiencia de las personas.</p>
-
+  <p align="justify">
+  Cuando se menciona la palabra “cine” la mayoría se hace referencia inconsciente al cine comercial, es decir, una sala con butacas que proyectan películas producidas por la gran industria cinematográfica. Actualmente, la cultura cinematográfica alternativa es poco conocida y difundida además de ser de difícil acceso debido a la falta de información confiable y actualizada. Los usuarios actuales que gustan de este tipo de cines se ven con problemas de por medio para averiguar o saber qué cines ofrecen este tipo de películas, que películas son transmitidas y en qué horarios. Asimismo, esta falta de información repercute en la falta de oportunidades que existen al momento de que los usuarios puedan compartir este tipo de experiencias junto a otros amantes del cine alternativo, impidiéndoles el poder formar una comunidad de esta. Pues no existe una plataforma o medio que pueda concentrar todos estos detalles para satisfacer su necesidad.
+  </p>
+  
 - When? (¿Cuándo?)
 
-	<p align = "justify">El problema surge de manera constante, especialmente durante las horas punta, tanto por la mañana como por la tarde. En estos momentos del día, los paraderos se abarrotan con usuarios ansiosos por trasladarse, lo que resulta en tiempos de espera prolongados y buses que circulan completamente llenos.</p>
-
+  <p align="justify">
+  El problema surge cuando alguien interesado en el cine alternativo desea asistir a una función en compañía de otras personas, pero no encuentra ni información relevante, como el cronograma de funciones y la ubicación de cines actualizado, ni tampoco logra contactar con personas que gusten de este medio de entretenimiento, lo que dificulta la organización de salidas en grupo. 
+  </p>
 - Where? (¿Dónde?)
 
-	<p align = "justify">El problema sucede en toda la ciudad de Lima, con especial énfasis en las zonas periféricas donde el servicio es aún más deficiente. Estas áreas, caracterizadas por una mayor necesidad de movilidad y una menor disponibilidad de opciones de transporte.</p>
-
+  <p align="justify">
+  La problemática sucede en las diferentes plataformas como blogs, a través de las opiniones de los distintos amantes de este entretenimiento.
+  </p>
 - Who? (¿Quién?)
 
-	<p align = "justify">Los principales afectados por la problemática son las personas que dependen del servicio de transporte público para sus desplazamientos diarios. Desde largos tiempos de espera en paraderos hasta la incomodidad de viajar en buses llenos.</p>
-
+  <p align="justify">
+  La problemática involucra a personas que buscan vivir una experiencia cinematográfica diferente al cine tradicional, así también como a aquellas personas que valoran el cine como un arte o forma de recordar momentos de su niñez.
+  </p>
 - Why? (¿Por qué?)
 
-	<p align = "justify">La problemática se origina en la falta de información en tiempo real sobre el estado de los buses, el tiempo de espera en los paraderos y el aforo de los vehículos, lo que dificulta a los pasajeros planificar sus viajes. Además, la ausencia de un monitoreo adecuado del estado del conductor genera preocupaciones sobre la seguridad durante los trayectos, lo que podría dar lugar a situaciones de riesgo para los pasajeros. Estos factores, combinados con la congestión del tráfico y la gestión ineficiente de la flota de transporte, contribuyen a una experiencia deficiente en el transporte público.</p>
-
+  <p align="justify">
+  El cine alternativo al no ser comercial y estar más enfocado en el cine como un arte, el tamaño del público objetivo es pequeño en comparación al cine tradicional. Además, la poca cobertura en nuestro país induce que aún se encuentre en un estado prematuro.
+  </p>
 - How? (¿Cómo?)
 
-	<p align = "justify">El problema se origina en la falta de sistemas efectivos de monitoreo y comunicación, lo que limita la capacidad de los usuarios para obtener información actualizada sobre el servicio y puede comprometer la seguridad de los pasajeros debido a la escasa supervisión del conductor. Esto se traduce en experiencias de viaje marcadas por largos tiempos de espera, congestión en los buses y falta de claridad sobre las rutas y horarios, lo que contribuye al estrés y la pérdida de tiempo para las personas. Además, las condiciones precarias en las que trabajan los conductores y  sumadas a la congestión vehicular, impactan negativamente en la calidad de vida de los pasajeros.</p>
-
+  <p align="justify">
+  Actualmente no hay una plataforma que permita a los usuarios disfrutar de películas de cine alternativo en compañía de otras personas con intereses similares. Es por ello por lo que hemos desarrollado una aplicación móvil, para que los usuarios finales puedan acceder a esta experiencia de manera fácil y conveniente a través de sus teléfonos móviles.
+  </p>
 - How much? (¿Cuánto?)
 
-	<p align = "justify">El problema tiene repercusiones significativas tanto en el ámbito económico como en el social. Según datos recientes de la Encuesta Lima Cómo Vamos 2022, el 64.5% de los limeños se encuentra insatisfecho con el servicio de transporte público, mientras que el 72% considera que es inseguro. Esta insatisfacción se ve reflejada en el tiempo de viaje, donde el 32% de los limeños tarda más de una hora en llegar a su lugar de trabajo. Además, un estudio del Banco Mundial revela que la congestión vehicular en Lima tiene un costo anual de aproximadamente US$ 2.5 mil millones. Este costo se debe principalmente a la pérdida de productividad, el consumo de combustible y el impacto en la salud pública debido a la contaminación del aire. Estas cifras subrayan el impacto negativo que el transporte público tiene en la calidad de vida, la productividad laboral y el medio ambiente de la ciudad.</p>
-
+  <p align="justify">
+  Según el Global Entertainment & Media Outlook se espera un crecimiento anual del cine peruano en un 42.23% del 2020 al 2025. Perú se ubica tercero detrás de Argentina y México, además, Perú es uno de los pocos mercados cinematográficos latinoamericanos en donde las películas locales incrementaron su market share de manera significativa.
+  </p>
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1 Lean UX Problem Statement
