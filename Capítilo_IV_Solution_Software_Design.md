@@ -103,18 +103,145 @@ Además, nuestra solución se orienta a satisfacer las necesidades del negocio a
 | Response Measure     | Porcentaje de reservas completadas sin errores.         |               |
 
 
+## 4.2  Strategic-Level Attribute-Driven Design
 
-## 4.2. Strategic-Level Domain-Driven Design.
+### 4.2.1 EventStorming
 
-### 4.2.1 EventStorming.
+En la fase de Event Storming, el equipo de "TuCine" aplicó un análisis  de los eventos del dominio para diseccionar y entender la operatividad del proyecto. Esta técnica visual y colaborativa facilitó la identificación de eventos críticos, comandos y políticas, resultando en un modelo comprensivo del negocio. El ejercicio fue esencial no solo para mapear el flujo de la aplicación, sino también para alinear las capacidades técnicas con los requerimientos empresariales y las expectativas de los usuarios.
 
-### 4.2.2. Candidate Context Discovery.
+**Paso 1: Domain Events**
 
-### 4.2.3. Domain Message Flows Modeling.
+![Domain Events](Resources/event_storming/Domain_Events.jpg)
 
-### 4.2.4. Bounded Context Canvases.
+**Paso 2: TimeLine**
+ 
+![Time Line](Resources/event_storming/Time_Line.jpg)
 
-### 4.2.5. Context Mapping.
+**Paso 3: Pain Points**
+ 
+![Pain Points](Resources/event_storming/Pain_Points.jpg)
+
+**Paso 4: Pivotal Points**
+ 
+![Pivotal Points](Resources/event_storming/Pivotal_Points.jpg)
+
+**Paso 5: Commands**
+
+![Commands](Resources/event_storming/Commands.jpg)
+
+**Paso 6: Policies**
+
+![Policies](Resources/event_storming/Policies.jpg)
+
+**Paso 7: Read Models**
+ 
+![Read Models](Resources/event_storming/Read_Models.jpg)
+
+**Paso 8: External Systems**
+
+![External Systems](Resources/event_storming/External_Systems.jpg)
+
+**Paso 9: Aggregates**
+
+![Aggregates](Resources/event_storming/Aggregates.jpg)
+
+**Paso 10: Bounded Contexts**
+
+![Bounded Contexts](Resources/event_storming/Bounded_Contexts.jpg)
+
+### 4.2.2. Candidate Context Discovery
+
+**Start-with-Value**
+Se identificó las partes centrales del dominio que aportan el mayor valor al negocio. Este enfoque permitió priorizar los aspectos críticos de la aplicación "TuCine", enfocándonos en la distribución y promoción de películas de nicho. Se identificaron eventos clave como "Película añadida", "Reserva realizada" y "Comentario publicado", que son esenciales para la experiencia del usuario y la proposición de valor del negocio.
+
+![Domain Events](Resources/event_storming/Domain_Events.jpg)
+
+**Start-with-Simple**
+Se crearon modelos simples pero funcionales, descomponiendo el timeline en pasos secuenciales claros. Esta técnica ayudó a visualizar el flujo de eventos desde la búsqueda de una película hasta la realización de una reserva. Al simplificar el modelo, se pudo identificar claramente las interacciones entre los usuarios, cineclubes, y la plataforma, facilitando la definición de límites para cada bounded context.
+
+**Look-for-Pivotal-Events**
+Se identificaron eventos pivotales que indicaran cambios de estado significativos en el proceso de negocio, como “Usuario registrado”, “Película añadida”, "Compra confirmada" o "Comentario publicado". Estos eventos marcan transiciones importantes que pueden definir los límites de diferentes contexts, ayudando a separar las funcionalidades de administración de reservas y gestión de comentarios/opiniones en contexts distintos.
+
+![Pivotal Points](Resources/event_storming/Pivotal_Points.jpg)
+
+**Bounded Contexts Definidos**
+
+El equipo logró distinguir varios bounded contexts que encapsulan funcionalidades específicas dentro del sistema "TuCine". Estos contexts se identificaron con base en eventos de dominio, comandos, políticas y agregados que comparten cohesión y operan bajo un conjunto común de reglas y políticas. Los bounded contexts identificados a partir de la sesión son los siguientes:
+
+***Gestión de Cuentas:*** Este contexto abarca toda la funcionalidad relacionada con la administración de cuentas de usuario, incluyendo la creación, edición y cancelación de cuentas, así como la autenticación y el manejo de credenciales.
+
+***Administración Cineclub:*** En este contexto, se concentran las operaciones relacionadas con la gestión de cineclubes, desde la creación de un cineclub, pasando por la administración de sus funciones, hasta la actualización de la información relacionada con las películas y eventos especiales.
+
+***Reservas y Compras***: Se refiere al conjunto de procesos y decisiones que giran en torno a la compra de boletos y las reservas. Incluye la selección de asientos, el proceso de pago y la validación de transacciones, así como la gestión de promociones y descuentos.
+
+***Comentarios de Cinéfilos:*** Este contexto encapsula la interacción social de la plataforma, donde los usuarios pueden crear y compartir reseñas y comentarios, lo que fomenta la discusión y participación de la comunidad.
+
+***Administración de Funciones de Películas:*** Este contexto se ocupa de la programación y administración de las funciones de películas, incluyendo la creación de nuevos horarios, la modificación de funciones existentes y la eliminación de funciones pasadas.
+
+### 4.2.3. Domain Message Flows Modeling
+
+Los Domain Message Flows en "TuCine" ilustran cómo los mensajes se transmiten entre los bounded contexts. Identifican los comandos que inician acciones, los eventos que representan resultados y las consultas que fluyen a través del sistema, asegurando una integración cohesiva y funcionalidades bien definidas dentro de la aplicación.
+
+
+![Domain Message Flows Step1](Resources/domain_message_flows/Domain_Message_Flows_Step1.jpg)
+
+![Domain Message Flows Step2](Resources/domain_message_flows/Domain_Message_Flows_Step2.jpg)
+
+![Domain Message Flows Step3](Resources/domain_message_flows/Domain_Message_Flows_Step3.jpg)
+
+### 4.2.4. Bounded Context Canvases
+
+**Gestión de Cuentas**
+
+![Account Management](Resources/bounded_context_canvas/Account_Management.jpg)
+
+**Administración Cineclub**
+
+![Cineclub Management](Resources/bounded_context_canvas/Cineclub_Management.jpg)
+
+**Reservas y Compras**
+
+![Reservations and Purchases](Resources/bounded_context_canvas/Reservations_Purchases.jpg)
+
+**Comentarios de Cinéfilos**
+
+![Comments](Resources/bounded_context_canvas/Comments.jpg)
+
+**Administración de Funciones de Películas**
+
+![Showtimes Management](Resources/bounded_context_canvas/Showtimes_Management.jpg)
+
+### 4.2.5. Context Mapping
+
+**Proceso de Elaboración de Context Maps**
+
+ La elaboración de context maps para visualizar y analizar las relaciones estructurales entre los bounded contexts identificados en el proyecto "TuCine". Este proceso implicó un examen de la información recolectada durante la sesión de EventStorming, y la utilización de la misma para generar diseños candidatos de context mapping.
+
+Para explorar las dinámicas y dependencias entre los bounded contexts, el equipo se planteó una serie de preguntas críticas que permitieron evaluar las consecuencias de diversas reestructuraciones del modelo de dominio. Estas preguntas guiaron las decisiones arquitectónicas, buscando optimizar la coherencia, evitar la duplicidad y mejorar la integridad del sistema.
+
+**Análisis de Alternativas de Context Mapping**
+
+Las alternativas consideradas incluyeron el movimiento de capacidades (capabilities) entre contexts, la descomposición y redistribución de sub-capacidades, la fusión y división de bounded contexts, la creación de nuevos contexts a partir de capacidades existentes, y la duplicación estratégica de funcionalidades.
+
+***Movimiento de Capacidades:*** Se discutió el impacto de trasladar la capacidad de gestión de reseñas del contexto "Comentarios de Cinéfilos" al contexto "Reservas y Compras". Se concluyó que, si bien podría centralizar la experiencia del usuario en una sola interfaz, también podría sobrecargar el contexto "Reservas y Compras" y desdibujar la intención de cada contexto.
+
+***Descomposición de Capacidades:*** Se evaluó la posibilidad de dividir el contexto "Administración de Funciones de Películas" en dos: uno enfocado en la programación y otro en la gestión de información de películas. Sin embargo, esto podría crear una barrera artificial que dificultaría la sincronización de cambios entre programación y detalles de películas.
+
+***Creación de un Contexto Compartido:*** Se exploró la idea de formar un nuevo bounded context con las capacidades de promoción compartidas por varios contexts. Este enfoque fomentaría la reutilización y podría actuar como un servicio compartido, pero aumentaría la complejidad de la coordinación entre contexts.
+
+***Duplicación de Funcionalidades:*** Se debatió sobre la duplicación de la funcionalidad de autenticación de usuarios en varios contexts para reducir dependencias. La conclusión fue que esto iría en contra de los principios DRY (Don't Repeat Yourself) y podría llevar a inconsistencias.
+
+***Servicio Compartido:*** Se propuso un servicio compartido para la gestión de usuarios, que centralizaría la autenticación y el manejo de perfiles. Esta alternativa prometía una gestión de usuarios más cohesiva y una reducción de la duplicación.
+
+***Aislamiento de Core Capabilities:*** Se contempló aislar las capacidades nucleares del contexto "Administración Cineclub" para formar un bounded context separado. Se decidió que, aunque podría clarificar las responsabilidades, también podría aumentar la latencia y los costos de sincronización.
+
+**Decisiones y Patrones de Context Mapping**
+
+Cada alternativa se discutió con la intención de llegar a la mejor aproximación posible. El equipo consideró patrones establecidos en Domain-Driven Design para manejar las relaciones entre los bounded contexts:
+
+***Anti-Corruption Layer:*** Se optó por implementar una capa anti-corrupción para preservar la integridad del contexto "Reservas y Compras" al interactuar con sistemas externos.
+
+***Shared Kernel:*** Se decidió contra la creación de un núcleo compartido debido a la naturaleza especializada y las diferencias en las necesidades de los distintos contexts.
 
 ## 4.3. Software Architecture.
 
