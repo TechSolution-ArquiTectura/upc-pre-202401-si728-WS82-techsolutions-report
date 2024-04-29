@@ -2,13 +2,119 @@
 
 ## 5.1.1 Domain Layer
 
+El contexto de "Account Management" se centra en la gestión de cuentas de usuarios, a bordando aspectos como la autenticación, la gestión de perfiles y la seguridad de la información asociada a las cuentas. Este contexto es crucial en sistemas que requieren la identificación y autorización de usuarios para acceder a funcionalidades específicas.
+
+### Aggregate
+
+El agregado principal en el contexto de "Account Management" podría ser la entidad User, que representa la información y el comportamiento asociado a un usuario dentro del sistema. Esta entidad encapsula los datos relacionados con un usuario y las operaciones que se pueden realizar sobre él.
+    
+### Entity
+
+User: Representa a un usuario del sistema, con atributos como Id, firstname, lastname, birthdate, phone, email, hashed_password, numberDNI, bank_account, image_src, created_at, Gender_id, TypeUser_id.
+### Value Objects
+
+Gender: Representa el género de un usuario, con atributos como id y name.
+
+TypeUser: Representa el tipo de usuario, con atributos como id y name.
+### Domain Services
+
+AuthenticationService: Gestiona la autenticación de usuarios, incluyendo la verificación de contraseñas y la generación de tokens de sesión.
+
+ProfileService: Proporciona funcionalidades relacionadas con la gestión de perfiles de usuario, como la actualización de información personal y la configuración de preferencias.
+
+SecurityService: Se encarga de garantizar la seguridad de la información asociada a las cuentas de usuario, implementando medidas como el hashing de contraseñas y la gestión de permisos.
+### Repositories
+
+UserRepository: Abstrae el acceso a datos relacionados con los usuarios, permitiendo operaciones como la creación, lectura, actualización y eliminación de registros de usuarios en la base de datos.
+
+GenderRepository: Gestiona la persistencia de información relacionada con los géneros de los usuarios.
+
+TypeUserRepository: Permite acceder y manipular información sobre los tipos de usuario en el sistema.
+
 ## 5.1.2 Interface Layer
+En la Interface Layer, el UserController actúa como un punto de entrada para las solicitudes relacionadas con la gestión de usuarios, interactuando con el Domain Layer para ejecutar las operaciones correspondientes y devolver las respuestas adecuadas a los clientes. Este controlador facilita la interacción entre los usuarios y el sistema, proporcionando una interfaz amigable y segura para la gestión de cuentas de usuario.
+
+
+Controllers
+UserController: Controlador encargado de gestionar la información de los usuarios, maneja las solicitudes relacionadas con la creación, recuperación, actualización y eliminación de usuarios en el sistema. Proporciona endpoints para interactuar con las funcionalidades de gestión de cuentas de usuario a través de la interfaz de usuario.
+
+El UserController puede tener métodos como:
+
+CreateUser: Maneja las solicitudes de creación de nuevos usuarios en el sistema.
+
+GetUser: Recupera la información de un usuario específico según su identificador.
+
+UpdateUser: Gestiona las solicitudes de actualización de la información de un usuario existente.
+
+DeleteUser: Maneja las solicitudes de eliminación de un usuario de la base de datos
+
+
+
 
 ## 5.1.3 Application Layer
 
+El Application Layer se encarga de orquestar las operaciones de alto nivel relacionadas con la gestión de usuarios, utilizando los servicios de dominio proporcionados por el Domain Layer para realizar las operaciones necesarias de manera eficiente y coherente. Esto ayuda a mantener una separación clara de responsabilidades entre las diferentes capas del sistema y facilita la implementación de cambios y mejoras en el futuro.
+
+### Services
+UserManagementService: Este servicio encapsula la lógica de aplicación relacionada con la gestión de usuarios. Actúa como una capa intermedia entre los controladores de la interfaz de usuario y el Domain Layer, coordinando las operaciones necesarias para satisfacer las solicitudes del UserController.
+
+El UserManagementService puede ofrecer métodos como:
+
+createUser: Coordina la creación de un nuevo usuario, validando los datos proporcionados y utilizando el UserRepository para persistir la información en la base de datos.
+
+getUserById: Recupera la información de un usuario específico utilizando el UserRepository y la devuelve al controlador de la interfaz de usuario correspondiente.
+
+updateUser: Gestiona la actualización de la información de un usuario existente, asegurando la coherencia de los datos y utilizando el UserRepository para actualizar la información en la base de datos.
+
+deleteUser: Coordina la eliminación de un usuario específico utilizando el UserRepository.
+
 ## 5.1.4 Infraestructure Layer
 
+El Infrastructure Layer se encarga de la implementación concreta de los componentes necesarios para interactuar con el entorno externo al sistema, como la base de datos y otros servicios externos. Proporciona una capa de abstracción entre el Application Layer y los detalles específicos de implementación, lo que facilita la gestión de dependencias y la escalabilidad del sistema. Además, permite realizar cambios en la infraestructura subyacente sin afectar a la lógica de negocio del sistema.
+
+### Repositories Implementations
+UserRepositoryImpl: Implementación concreta del UserRepository que interactúa directamente con el sistema de almacenamiento de datos subyacente, como una base de datos relacional o no relacional. Proporciona métodos para ejecutar consultas y operaciones CRUD (Crear, Leer, Actualizar, Eliminar) relacionadas con los usuarios.
+### Data Source Configuration
+Configuración de la conexión a la base de datos: Este componente se encarga de establecer la conexión con la base de datos utilizada por el sistema, configurando parámetros como la URL de conexión, credenciales de autenticación y configuraciones de conexión específicas del proveedor de base de datos.
+### External Services Integration
+Integraciones externas: En esta capa también se pueden incluir componentes para integrar servicios externos necesarios para la gestión de usuarios, como servicios de autenticación externos o servicios de almacenamiento de archivos para las imágenes de perfil de los usuarios.
 ## 5.1.6 Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la arquitectura de componentes a nivel de contexto acotado del sistema, mostrando cómo se comunican los diferentes componentes dentro de cada contexto y cómo se conectan los contextos entre sí, así como los servicios externos utilizados por el sistema. Esta estructura facilita la comprensión de la interacción entre los diferentes elementos del sistema y proporciona una base para su diseño e implementación.
+
+
+### Single Page App
+Description: Interfaz de usuario basada en una sola página que permite a los usuarios interactuar con el sistema de gestión de cuentas.
+#### Components:
+
+UserAccountController: Controlador de la interfaz de usuario responsable de manejar las solicitudes del usuario y dirigirlas al UserAccountServices para su procesamiento.
+
+Model: Representación de los datos y la lógica de negocio asociada en el lado del cliente.
+### UserAccount Bounded Context
+
+Description: Contexto del sistema que se ocupa de la gestión de cuentas de usuario.
+#### Components:
+
+UserAccountController: Controlador que recibe las solicitudes de la interfaz de usuario y las dirige al UserAccountServices para su procesamiento.
+
+UserAccountServices: Servicios de aplicación encargados de la lógica de negocio relacionada con la gestión de cuentas de usuario, como la creación, actualización y eliminación de cuentas.
+
+Model: Representación de los datos y la lógica de negocio asociada en el lado del servidor.
+### Administration Cineclub Bounded Context
+
+Description: Contexto del sistema dedicado a la administración del Cineclub.
+#### Components:
+
+AdministrationCineclubController: Controlador que maneja las solicitudes relacionadas con la administración del Cineclub.
+
+AdministrationCineclubServices: Servicios de aplicación encargados de la lógica de negocio asociada con la administración del Cineclub, como la gestión de películas, horarios y ventas de entradas.
+
+Model: Representación de los datos y la lógica de negocio asociada en el lado del servidor.
+### External Services
+Description: Servicios externos utilizados por el sistema.
+#### Components:
+SendGridAPI: API de SendGrid utilizada para el envío de correos electrónicos y notificaciones.
+
 
 ## 5.1.7 Bounded Context Software Architecture Layer Class Diagrams
 
@@ -51,6 +157,7 @@ serán las siguientes:
 - CategoryController: Controlador para los procesos relacionados a las categorías existentes para todas las películas
 
 ## 5.2.3 Application Layer
+
 
 ## 5.2.4 Infraestructure Layer
 
