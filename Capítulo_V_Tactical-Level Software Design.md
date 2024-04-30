@@ -194,7 +194,7 @@ se hace con el fin de aligerar y hacer menos tedioso el proceso de búsqueda y a
 los cineclubes.
 
 ## 5.2.6 Bounded Context Software Architecture Component Level Diagrams
-![CineclubAdministrationBoundedContext](https://i.ibb.co/XtgTn3B/Screenshot-2024-04-29-204117.png)
+![CineclubAdministrationBoundedContext](https://i.ibb.co/R42JT5V/Picture3.png)
 
 ## 5.2.7 Bounded Context Software Architecture Layer Class Diagrams
 
