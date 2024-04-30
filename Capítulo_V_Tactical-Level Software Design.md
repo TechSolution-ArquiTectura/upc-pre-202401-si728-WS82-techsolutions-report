@@ -334,9 +334,15 @@ Además, esta capa maneja la integración con cualquier API externa o microservi
 
 ## 5.4.6 Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes del contexto limitado de reservas muestra la estructura y las interacciones entre los componentes que gestionan la compra de boletos en la aplicación TuCine. Consiste en una Aplicación de Página Única (SPA) implementada con Angular y TypeScript, que proporciona la interfaz de usuario. Las peticiones de los usuarios son manejadas por el Controlador de Ticket, que procesa operaciones mediante la API REST. Este controlador utiliza los Servicios de Ticket para ejecutar la lógica de negocio, los cuales a su vez interactúan con el Repositorio de Ticket implementado en JpaRepository para la persistencia de datos. Este repositorio gestiona las entidades definidas en el Modelo de Dominio de Ticket, almacenadas en una Base de Datos MySQL.
+
 ## 5.4.7 Bounded Context Software Architecture Layer Class Diagrams
 
 ### 5.4.7.1 Bounded Context Domain Layer Class Diagrams
+
+El TicketController es responsable de manejar las solicitudes de los usuarios relacionadas con la creación, modificación y compra de boletos. Se comunica con el TicketService para realizar estas operaciones. El TicketService, a su vez, interactúa con el TicketRepository para acceder y manipular los datos de los boletos en la base de datos. La entidad Ticket representa un boleto comprado por un usuario, con atributos como el ID del boleto, la fecha de emisión, la fecha de modificación, el número de asientos, el ID del usuario, el precio total, el ID de la futura película y el estado del boleto.
+
+![component](Resources/booking_bounded_context/class_diagram.png)
 
 ### 5.4.7.2 Bounded Context Database Design Diagram
 
