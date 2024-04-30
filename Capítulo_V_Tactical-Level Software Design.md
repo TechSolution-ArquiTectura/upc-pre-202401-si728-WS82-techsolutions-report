@@ -158,6 +158,31 @@ serán las siguientes:
 
 ## 5.2.3 Application Layer
 
+La capa de aplicación es la encargada de orquestar las operaciones de alto nivel relacionadas con la 
+gestión de cineclubes existentes, utilizando servicios que están conectados a la capa de base de datos
+para realizar las operaciones necesarias de manera eficiente y coherente. 
+
+Services:
+
+- FilmService: Este servicio se encarga de interactuar con la base de datos relacionada con las películas, dentro de sus
+métodos u operaciones que puede realizar tenemos las siguientes:
+  - createNewFilm: Creación de una nueva película para un cineclub
+  - searchFilmInExteriorAPI: Búsqueda de una película a través de la API externa de The Movie Database
+  - searchExistingFilm: Busqueda de una película existente
+<br>
+<br>
+- CineclubService: Este servicio se encarga de interactuar con la base de datos relacionada con los cineclubes individuales 
+pertenecientes a cada propietario, dentro de algunos de sus métodos u operaciones que puede realizar tenemos las siguientes:
+  - createCineclub: Creación de un nuevo cineclub
+  - modifyCineclub: Modificación de la información de un cineclub
+  - deleteCineclub: Eliminación de un cineclub de un propietario
+<br>
+<br>
+- CategoryService: Servicio encargado de interactuar con la base de datos relacionada con las categorías individuales de cada películas
+, dentro de algunos de sus métodos u operaciones que puede realizar tenemos las siguientes:
+    - createCategory: Creación de una nueva categoría para las película
+    - modifyCategory: Modificación de una categoría existente
+    - deleteCategory: Eliminación de una categoría
 
 ## 5.2.4 Infraestructure Layer
 
