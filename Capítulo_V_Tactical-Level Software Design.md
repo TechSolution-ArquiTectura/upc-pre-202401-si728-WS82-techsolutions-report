@@ -208,21 +208,77 @@ los cineclubes.
 
 # 5.3 Bounded Context: Showtime Managment Bounded Context
 
+El Bounded Context de Showtime encapsula la funcionalidad relacionada con la gestión de las proyecciones de películas en un cine. 
+
 ## 5.3.1 Domain Layer
+
+### Entities
+
+- **Showtime**: Representa una proyección específica de una película en un horario determinado.
+
+### Value Objects
+
+- **Schedule**: Puede ser un objeto de valor que indica la hora de inicio y fin de una función. Es inmutable y no tiene identidad propia.
+
+### Aggregates
+
+- **Showtime Aggregate**: Este sería el agregado raíz incluida la entidad Showtime y asociado al cineclub. Garantiza que no se superpongan las proyecciones en una sola sala.
+
+### Domain Services
+
+- **Scheduling Service**: Gestiona la logística de programación de proyecciones asegurando que no haya superposiciones horarias en la única sala del cine.
+
+### Repositories
+
+- **Showtime Repository**: Gestiona la recuperación y el almacenamiento de datos de proyección fundamentales para acceder a la información de proyección por cine y gestionar la programación.
 
 ## 5.3.2 Interface Layer
 
+### Controllers
+
+- **ShowtimeController**: Gestiona las solicitudes para las proyecciones de películas.
+
+### DTOs
+
+- **ShowtimeDTO**: Contiene los datos de una proyección como la película, la hora de inicio y fin y la sala. Se utiliza para transportar datos de las proyecciones entre el cliente y el servidor.
+
 ## 5.3.3 Application Layer
+
+### Command Handlers
+
+- **CreateShowtimeCommandHandler**: Maneja la lógica de aplicación para crear un nuevo showtime.
+
+### Event Handlerss
+
+- **ShowtimeScheduledEventHandler**: Se encarga de gestionar las acciones posteriores a la programación exitosa de un showtime (notificaciones o integraciones con otros sistemas).
+
+### Application Services
+
+- **ShowtimeService**: Este servicio de la aplicación proporcionaría métodos de alto nivel para los casos de uso relacionados con los showtimes como `scheduleShowtime()`, `getShowtimeDetails()`, `updateShowtimeDetails()`, y `deleteShowtime()`. Estos métodos se comunicarían con los command handlers y los event handlers apropiados.
 
 ## 5.3.4 Infraestructure Layer
 
+- **ShowtimeRepositoryImpl**: Una implementación del ShowtimeRepository que podría utilizar un ORM (Object-Relational Mapping) como Hibernate para mapear las entidades del dominio a registros de una base de datos relacional.
+
 ## 5.3.6 Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del bounded context de Showtime en una aplicación de cine muestra la estructura y las interacciones entre los componentes que gestionan la visualización y administración de horarios de películas. Consiste en una Aplicación de Página Única (SPA) implementada con Angular y TypeScript, que proporciona la interfaz de usuario. Las peticiones de los usuarios son manejadas por el Controlador de Showtime, que procesa operaciones mediante la API REST. Este controlador utiliza los Servicios de Showtime para ejecutar la lógica de negocio, los cuales a su vez interactúan con el Repositorio de Showtime implementado en JpaRepository para la persistencia de datos. Este repositorio gestiona las entidades definidas en el Modelo de Dominio de Showtime, almacenadas en una Base de Datos MySQL.
+
+![component](Resources/showtime_bounded_context/component_diagram.png)
 
 ## 5.3.7 Bounded Context Software Architecture Layer Class Diagrams
 
 ### 5.3.7.1 Bounded Context Domain Layer Class Diagrams
 
+El ShowtimeController es responsable de manejar las peticiones y hace uso del ShowtimeService para ejecutar operaciones relacionadas con los showtimes. Este servicio es una interfaz implementada por ShowtimeServiceImpl, que a su vez interactúa con el ShowtimeRepository para operaciones de persistencia de datos. El repositorio es una extensión de JPARepository, lo que facilita las operaciones CRUD sobre la entidad Showtime, que contiene datos esenciales como el identificador de la función, fecha, ID de película, cantidad de asientos disponibles, y otros atributos relevantes. Este diseño desacopla la lógica de negocio de la interfaz de usuario y la gestión de datos, permitiendo un mantenimiento y escalabilidad eficientes.
+
+![component](Resources/showtime_bounded_context/class_diagram.png)
+
 ### 5.3.7.2 Bounded Context Database Design Diagram
+
+La tabla showtimes en la base de datos está diseñada para almacenar información sobre las funciones de películas.
+
+![component](Resources/showtime_bounded_context/database_diagram.png)
 
 # 5.4 Bounded Context: Booking Bounded Context
 
