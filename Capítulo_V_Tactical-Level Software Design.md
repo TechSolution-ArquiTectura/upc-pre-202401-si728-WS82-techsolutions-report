@@ -186,13 +186,25 @@ pertenecientes a cada propietario, dentro de algunos de sus métodos u operacion
 
 ## 5.2.4 Infraestructure Layer
 
+Se tienen clases para el consumo de APIs externas de nuestra aplicación: TMDBAPI. Especificamente en este bounded context 
+se hace uso de una clase para el consumo de la API de The Movie Database, con el fin de extraer información de 
+películas existentes. De manera que los propietarios de cineclub solo tengan que buscar a través de esta API
+películas que deseen añadir a su cartelera, en lugar de crear manualmente una película y luego añadir. Esto 
+se hace con el fin de aligerar y hacer menos tedioso el proceso de búsqueda y añadidura de películas para
+los cineclubes.
+
 ## 5.2.6 Bounded Context Software Architecture Component Level Diagrams
+![CineclubAdministrationBoundedContext](https://i.ibb.co/XtgTn3B/Screenshot-2024-04-29-204117.png)
 
 ## 5.2.7 Bounded Context Software Architecture Layer Class Diagrams
 
 ### 5.2.7.1 Bounded Context Domain Layer Class Diagrams
 
+![CineclubAdministrationUMLClass](https://i.ibb.co/3MSxwNC/UML-CNBOUNDED.png)
+
 ### 5.2.7.2 Bounded Context Database Design Diagram
+
+![CineclubAdministrationDatabaseDesign](https://i.ibb.co/b12VKb3/DB-CNBOUNDED.png)
 
 # 5.3 Bounded Context: Showtime Managment Bounded Context
 
