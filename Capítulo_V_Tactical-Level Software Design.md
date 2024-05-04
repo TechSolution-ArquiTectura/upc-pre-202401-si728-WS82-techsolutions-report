@@ -322,9 +322,11 @@ El Bounded Context de Comments encapsula la funcionalidad relacionada con los co
 ## 5.5.1 Domain Layer
 Las clases pertenecientes al dominio del bounded context de Comentarios serán las siguientes:
 
+
 Comment: Representa un comentario de un usuario
 MovieComments: Representa el comentario de una pelicula
 CineclubComments: Representa comentario de un Cineclub
+
 
 ## 5.5.2 Interface Layer
 MovieCommentController: Controlador para los comentarios relacionados a una pelicula
