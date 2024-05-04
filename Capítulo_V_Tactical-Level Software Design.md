@@ -330,7 +330,11 @@ CineclubComments: Representa comentario de un Cineclub
 
 ## 5.5.2 Interface Layer
 MovieCommentController: Controlador para los comentarios relacionados a una pelicula
+
+
 CineclubCommentController: Controlador para los comentarios relacionados a un cineclub
+
+
 ## 5.5.3 Application Layer
 La capa de aplicación es la encargada de orquestar las operaciones de alto nivel relacionadas con los comentarios respecto a los cineclubs y peliculas, utilizando servicios que están conectados a la capa de base de datos para realizar las operaciones necesarias de manera eficiente y coherente.
 
