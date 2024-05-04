@@ -1,4 +1,4 @@
-# 5.1 Bounded Context: Account Managment Bounded Context
+![image](https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/assets/89119241/154b367b-9185-4fa0-bb4e-767dd45d743c)# 5.1 Bounded Context: Account Managment Bounded Context
 
 ## 5.1.1 Domain Layer
 
@@ -317,19 +317,47 @@ La tabla tickets en la base de datos está diseñada para almacenar información
 ![component](Resources/booking_bounded_context/database_diagram.png)
 
 # 5.5 Bounded Context: Comments Bounded Context
+El Bounded Context de Comments encapsula la funcionalidad relacionada con los comentarios de los cinefilos hacia las reseñas de las peliculas y cines establecidos en la aplicacion.
 
 ## 5.5.1 Domain Layer
+Las clases pertenecientes al dominio del bounded context de Comentarios serán las siguientes:
+
+Comment: Representa un comentario de un usuario
+MovieComments: Representa el comentario de una pelicula
+CineclubComments: Representa comentario de un Cineclub
 
 ## 5.5.2 Interface Layer
-
+MovieCommentController: Controlador para los comentarios relacionados a una pelicula
+CineclubCommentController: Controlador para los comentarios relacionados a un cineclub
 ## 5.5.3 Application Layer
+La capa de aplicación es la encargada de orquestar las operaciones de alto nivel relacionadas con los comentarios respecto a los cineclubs y peliculas, utilizando servicios que están conectados a la capa de base de datos para realizar las operaciones necesarias de manera eficiente y coherente.
+
+Services:
+
+MovieCommentService: Este servicio se encarga de interactuar con la base de datos relacionada con los comentarios de las peliculas, dentro de sus métodos u operaciones que puede realizar tenemos las siguientes:
+createComment: Creación de un nuevo comentario a una pelicula
+modifyComment: Modificacion de un  comentario existente de una pelicula
+deleteComment: Eliminacion de un comentario existente
+replieComment: respuesta a un comentarion de pelicula
+
+CineclubCommentService: Este servicio se encarga de interactuar con la base de datos relacionada con los comentarios de los Cineclubs, dentro de sus métodos u operaciones que puede realizar tenemos las siguientes:
+createComment: Creación de un nuevo comentario a un Cineclub
+modifyComment: Modificacion de un  comentario existente de un Cineclub
+deleteComment: Eliminacion de un comentario existente
+replieComment: respuesta a un comentarion de un Cineclub
 
 ## 5.5.4 Infraestructure Layer
+MovieRepositoryImpl: Una Implementación concreta del MovieRepository que interactúa directamente con el sistema de almacenamiento de datos subyacente, como una base de datos relacional o no relacional. Proporciona métodos para ejecutar consultas y operaciones CRUD (Crear, Leer, Actualizar, Eliminar) relacionadas con los Comentarios de las peliculas.
+CineclubRepositoryImpl: Una Implementación concreta del CineclubRepository que interactúa directamente con el sistema de almacenamiento de datos subyacente, como una base de datos relacional o no relacional. Proporciona métodos para ejecutar consultas y operaciones CRUD (Crear, Leer, Actualizar, Eliminar) relacionadas con los Comentarios de los Cineclubs.
 
 ## 5.5.6 Bounded Context Software Architecture Component Level Diagrams
+![comment](https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/assets/89119241/4e8f8106-b4f0-4e0d-988b-dc1c1c8a9a29)
 
 ## 5.5.7 Bounded Context Software Architecture Layer Class Diagrams
 
 ### 5.5.7.1 Bounded Context Domain Layer Class Diagrams
+![image](https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/assets/89119241/f7dd27eb-b548-4e57-94aa-48a55e63930f)
 
 ### 5.5.7.2 Bounded Context Database Design Diagram
+![image](https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/assets/89119241/8e989148-4df3-434a-8681-3d8d950c49bf)
+
