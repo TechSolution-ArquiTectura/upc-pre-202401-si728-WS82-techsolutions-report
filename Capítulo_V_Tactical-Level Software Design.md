@@ -1,4 +1,4 @@
-![image](https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/assets/89119241/154b367b-9185-4fa0-bb4e-767dd45d743c)# 5.1 Bounded Context: Account Managment Bounded Context
+# 5.1 Bounded Context: Account Managment Bounded Context
 
 ## 5.1.1 Domain Layer
 
