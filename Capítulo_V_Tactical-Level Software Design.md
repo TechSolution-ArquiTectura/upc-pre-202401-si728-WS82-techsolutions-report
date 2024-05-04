@@ -87,55 +87,19 @@ Integraciones externas: En esta capa también se pueden incluir componentes para
 
 ## 5.1.6 Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama representa la arquitectura de componentes a nivel de contexto acotado del sistema, mostrando cómo se comunican los diferentes componentes dentro de cada contexto y cómo se conectan los contextos entre sí, así como los servicios externos utilizados por el sistema. Esta estructura facilita la comprensión de la interacción entre los diferentes elementos del sistema y proporciona una base para su diseño e implementación.
-
-### Single Page App
-
-Description: Interfaz de usuario basada en una sola página que permite a los usuarios interactuar con el sistema de gestión de cuentas.
-
-#### Components:
-
-UserAccountController: Controlador de la interfaz de usuario responsable de manejar las solicitudes del usuario y dirigirlas al UserAccountServices para su procesamiento.
-
-Model: Representación de los datos y la lógica de negocio asociada en el lado del cliente.
-
-### UserAccount Bounded Context
-
-Description: Contexto del sistema que se ocupa de la gestión de cuentas de usuario.
-
-#### Components:
-
-UserAccountController: Controlador que recibe las solicitudes de la interfaz de usuario y las dirige al UserAccountServices para su procesamiento.
-
-UserAccountServices: Servicios de aplicación encargados de la lógica de negocio relacionada con la gestión de cuentas de usuario, como la creación, actualización y eliminación de cuentas.
-
-Model: Representación de los datos y la lógica de negocio asociada en el lado del servidor.
-
-### Administration Cineclub Bounded Context
-
-Description: Contexto del sistema dedicado a la administración del Cineclub.
-
-#### Components:
-
-AdministrationCineclubController: Controlador que maneja las solicitudes relacionadas con la administración del Cineclub.
-
-AdministrationCineclubServices: Servicios de aplicación encargados de la lógica de negocio asociada con la administración del Cineclub, como la gestión de películas, horarios y ventas de entradas.
-
-Model: Representación de los datos y la lógica de negocio asociada en el lado del servidor.
-
-### External Services
-
-Description: Servicios externos utilizados por el sistema.
-
-#### Components:
-
-SendGridAPI: API de SendGrid utilizada para el envío de correos electrónicos y notificaciones.
+![component](Resources/Account_Managment_bounded_context/p1.png)
 
 ## 5.1.7 Bounded Context Software Architecture Layer Class Diagrams
 
 ### 5.1.7.1 Bounded Context Domain Layer Class Diagrams
 
+![component](Resources/Account_Managment_bounded_context/p2.png)
+
+
 ### 5.1.7.2 Bounded Context Database Design Diagram
+
+![component](Resources/Account_Managment_bounded_context/bd.png)
+
 
 # 5.2 Bounded Context: Cineclub Administration Bounded Context
 
