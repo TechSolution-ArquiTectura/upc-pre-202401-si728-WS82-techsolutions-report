@@ -17,7 +17,7 @@ Ciclo: 2024-1
 
 ---
 
-# TB1
+# TP
 
 ## TechSolutions
 
@@ -30,6 +30,8 @@ Ciclo: 2024-1
 | Alfaro Salinas, Andrea Sofia Del Milagro | U202115862 |
 | Fiestas Santisteban, Axel Joshue         | U20201B908 |
 | Almeyda Alania, Fredy Antonio            | U20201B033 |
+| Chincha Arias, Alessandro Jair           | u202010840 |
+| Cristian Aldair Bonifacio                | u20201b845 |
 
 <div align="right"><Abril 2024></div>
 <p align="right">
