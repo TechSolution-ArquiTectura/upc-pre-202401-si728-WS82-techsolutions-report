@@ -271,20 +271,20 @@ La presente evidencia documenta el desarrollo de una aplicación web diseñada c
 
     Se crearon cuentas en GitHub y Azure para los nuevos desarrolladores, proporcionando acceso a los repositorios de código y recursos necesarios para el             despliegue.
     
-    **Configuración de Recursos en Azure**
+   **Configuración de Recursos en Azure**
 
     Azure App Services: Se configuraron servicios de aplicaciones en Azure para alojar la API RESTful, asegurando un entorno escalable y seguro.
     Azure SQL Database: Se configuró una base de datos SQL en Azure para manejar el almacenamiento y gestión de datos, permitiendo transacciones seguras y             eficientes.
 
-    **Integración y Despliegue Continuo**
+   **Integración y Despliegue Continuo**
 
     GitHub Actions: Se configuraron pipelines de CI/CD utilizando GitHub Actions para automatizar la compilación, pruebas y despliegue de la API RESTful en Azure.
 
-    **Documentación con Swagger**  
+   **Documentación con Swagger**  
 
     Se utilizó Swagger para la documentación de la API, proporcionando una interfaz interactiva para explorar y probar los endpoints de la API.
 
-    **Frontend Deployment**
+   **Frontend Deployment**
 
     Configuración de Recursos en Netlify
       Netlify: Se configuró Netlify para el despliegue del frontend desarrollado en Angular 17, proporcionando un entorno de alojamiento estático eficiente y            fácil de usar.
@@ -293,13 +293,14 @@ La presente evidencia documenta el desarrollo de una aplicación web diseñada c
       GitHub Actions: Se configuraron pipelines de CI/CD para automatizar la compilación y despliegue del frontend en Netlify.
 
 
-    **Documentación de Cambios**
+   **Documentación de Cambios**
       Se documentaron todos los cambios realizados en el proceso de despliegue, incluyendo:
 
       Commits en el Repositorio: Cada cambio significativo en la configuración del despliegue se registró con mensajes de commit claros y detallados.
       Casos de Prueba: Se crearon y ejecutaron casos de prueba para garantizar que cada parte del sistema se despliegue y funcione correctamente.
 
-    **Evidencia Visual**
+   **Evidencia Visual**
+   
     Configuración de Azure App Services para la API RESTful
 
     Pipeline de CI/CD en GitHub Actions para la API RESTful
