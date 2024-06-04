@@ -77,7 +77,7 @@ Para el despliegue del backend en Java 16 se utilizará el servicio Railway (htt
 | Prepared by                    | Cristian Aldair Bonifacio                                                |
 | **Attendees (to planning meeting)** | Fiestas Axel , Almeyda Fredy, Chincha Alessandro , Vasquez Tania |
 | **Sprint Goal & User Stories** |                                                              |
-| Sprint 1 Goal                  | Implementar la funcionalidad de pago con MetaMask en la aplicación Angular, permitiendo a los usuarios conectarse a sus billeteras Ethereum y realizar pagos utilizando la criptomoneda ETH.|
+| Sprint 1 Goal                  | Implementar la funcionalidad de pago con MetaMask en la aplicación Angular, permitiendo a los usuarios conectarse a sus billeteras Ethereum y realizar pagos utilizando la criptomoneda.|
 | Sprint 1 Velocity              | Para este sprint hemos considerado aceptar como máximo 36 story points. |
 | Sum of Story Points            | 36                                                           |
 
@@ -108,14 +108,147 @@ Para el despliegue del backend en Java 16 se utilizará el servicio Railway (htt
 |               |                                  | T27 | Manejo de pago no encontrado            | Implementar la lógica para manejar el caso en el que el pago no es encontrado                      | 4                  | Almeyda Fredy    | To-do          |
 
 #### 7.2.1.3. Development Evidence for Sprint Review. 
-#### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+Durante este Sprint, se completó el desarrollo para implementar la funcionalidad de pago con MetaMask en la aplicación Angular. Se realizaron modificaciones significativas en la base de datos y el backend para permitir a los usuarios realizar pagos utilizando la criptomoneda ETH. En la base de datos, se simplificaron entidades redundantes y se agregaron atributos necesarios para integrarse con el API de MetaMask. Además, se introdujeron nuevas entidades clave para gestionar pagos y transacciones criptográficas. En el backend, se llevó a cabo una actualización del diseño para mejorar la organización y facilitar la integración con MetaMask, incluyendo la implementación de endpoints específicos para iniciar y verificar pagos, y la integración de un smart contract para gestionar transacciones en Ethereum. El equipo trabajó de manera colaborativa para cumplir con las tareas asignadas y se realizaron pruebas exhaustivas para asegurar la estabilidad y funcionalidad del sistema en diversos entornos. Además, se documentaron los cambios realizados y se crearon casos de prueba para garantizar la calidad del desarrollo.
+
+| Repository                       | Branch | Commit ID | Commit Message                     | Committed on (Date) |
+| --------------------------------- | ------ | --------- | ----------------------------------- | ------------------- |
+| TechSolution-Arquitectura / Backend | main   | 06d9551  | Merge pull request #1 from...develop | 2024-06-03          |
+| TechSolution-Arquitectura / Backend | main   | 65f06b0  | fix: Sign in controller            | 2024-06-03          |
+| TechSolution-Arquitectura / Backend | develop   | 65f06b0  | fix: Login an register            | 2024-06-03          |
+| TechSolution-Arquitectura / Backend | develop   | 65f06b0  | fix (*) - Step 3 of payment method            | 2024-06-03          |
+
+*Network*
+
+
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+### Feature: US007 Reservar ticket
+
+**Scenario: Reservar un boleto exitosamente**
+- **Given** Implementar la lógica para reservar un boleto exitosamente
+- **When** Axel Fiestas reserva un boleto
+- **Then** El boleto se reserva exitosamente
+
+**Scenario: Ver información de la película y funciones disponibles**
+- **Given** Mostrar la información de la película y las funciones disponibles
+- **When** Tania Vásquez consulta la información de la película y las funciones disponibles
+- **Then** La información de la película y las funciones disponibles se muestra correctamente
+
+### Feature: US008 Pagar boleto reservado en pasarela con diversas opciones de pago
+
+**Scenario: Validación de número de tarjeta no admitida**
+- **Given** Implementar la validación del número de tarjeta de una red de pago no admitida
+- **When** Almeyda Fredy ingresa un número de tarjeta no admitida
+- **Then** La validación del número de tarjeta no admitida se realiza correctamente
+
+**Scenario: Validación de número de tarjeta admitida**
+- **Given** Implementar la validación del número de tarjeta de una red de pago admitida
+- **When** Almeyda Fredy ingresa un número de tarjeta admitida
+- **Then** La validación del número de tarjeta admitida se realiza correctamente
+
+**Scenario: Validación de datos no admitidos**
+- **Given** Implementar la validación de datos no admitidos para la tarjeta seleccionada
+- **When** Chincha Alessandro ingresa datos no admitidos para la tarjeta seleccionada
+- **Then** La validación de datos no admitidos se realiza correctamente
+
+**Scenario: Validación de datos admitidos**
+- **Given** Implementar la validación de datos admitidos para la tarjeta seleccionada
+- **When** Chincha Alessandro ingresa datos admitidos para la tarjeta seleccionada
+- **Then** La validación de datos admitidos se realiza correctamente
+
+**Scenario: Manejo de fondos insuficientes**
+- **Given** Implementar el manejo de fondos insuficientes durante la transacción
+- **When** Cristian Aldair realiza una transacción con fondos insuficientes
+- **Then** El manejo de fondos insuficientes se realiza correctamente
+
+**Scenario: Manejo de fondos suficientes**
+- **Given** Implementar el manejo de fondos suficientes durante la transacción
+- **When** Cristian Aldair realiza una transacción con fondos suficientes
+- **Then** El manejo de fondos suficientes se realiza correctamente
+
+**Scenario: Integración de MetaMask**
+- **Given** Implementar la integración con MetaMask para pagos con criptomonedas
+- **When** Axel Fiestas realiza un pago con MetaMask
+- **Then** La integración de MetaMask se realiza correctamente
+
+**Scenario: Validación de MetaMask no instalado o sin sesión iniciada**
+- **Given** Manejar el caso en el que MetaMask no está instalado o la sesión no está iniciada
+- **When** Axel Fiestas intenta realizar un pago con MetaMask no instalado o sin sesión iniciada
+- **Then** La validación de MetaMask no instalado o sin sesión iniciada se realiza correctamente
+
+**Scenario: Validación de MetaMask instalado y con sesión iniciada**
+- **Given** Manejar el caso en el que MetaMask está instalado y la sesión está iniciada
+- **When** Axel Fiestas intenta realizar un pago con MetaMask instalado y con sesión iniciada
+- **Then** La validación de MetaMask instalado y con sesión iniciada se realiza correctamente
+
+**Scenario: Transacción de criptomonedas exitosa**
+- **Given** Implementar la lógica para manejar una transacción de criptomonedas exitosa
+- **When** Tania Vásquez realiza una transacción de criptomonedas
+- **Then** La transacción de criptomonedas se realiza exitosamente
+
+**Scenario: Transacción de criptomonedas fallida**
+- **Given** Implementar la lógica para manejar una transacción de criptomonedas fallida
+- **When** Tania Vásquez realiza una transacción de criptomonedas
+- **Then** La transacción de criptomonedas falla correctamente
+
+### Feature: TS010 Desarrollar API para iniciar el pago con MetaMask
+
+**Scenario: Implementación del endpoint /api/payments/metamask/start**
+- **Given** Implementar el endpoint para iniciar el pago con MetaMask
+- **When** Chincha Alessandro inicia el pago con MetaMask
+- **Then** El pago con MetaMask se inicia correctamente
+
+### Feature: TS011 Integrar smart contract para manejar pagos
+
+**Scenario: Despliegue del smart contract**
+- **Given** Desarrollar y desplegar el smart contract en la red Ethereum
+- **When** Cristian Aldair despliega el smart contract
+- **Then** El smart contract se despliega correctamente
+
+**Scenario: Confirmación de transacción por el smart contract**
+- **Given** Implementar la lógica para confirmar la transacción mediante el smart contract
+- **When** Cristian Aldair confirma la transacción mediante el smart contract
+- **Then** La transacción se confirma correctamente
+
+### Feature: TS012 API para verificar el estado del pago con MetaMask
+
+**Scenario: Implementación del endpoint /api/payments/metamask/verify**
+- **Given** Implementar el endpoint para verificar el estado del pago con MetaMask
+- **When** Almeyda Fredy verifica el estado del pago con MetaMask
+- **Then** El estado del pago con MetaMask se verifica correctamente
+
+**Scenario: Manejo de pago no encontrado**
+- **Given** Implementar la lógica para manejar el caso en el que el pago no es encontrado
+- **When** Almeyda Fredy busca un pago no encontrado
+- **Then** El manejo de pago no encontrado se realiza correctamente
+
+
+| Repository | Branch | Commit Id | Commit Message           | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|--------------------------|---------------------|---------------------|
+| TestingSuite       | main   | bd35a86   | API for MetaMask         |                     | Jun 3, 2024         |
+| TestingSuite       | main   | 3f8d0a8   | API payment verification |                     | Jun 3, 2024         |
+| TestingSuite       | main   | 50d08c6   | Smart Contract for payment |                  | Jun 3, 2024         |
+| TestingSuite       | main   | d886a7c   | API for MetaMask         |                     | Jun 3, 2024         |
+| TestingSuite       | main   | b9d9b83   | fix: structure           |                     | Jun 3, 2024         |
+| TestingSuite       | main   | 4bac05d   | feat: add us-08          |                     | Jun 3, 2024         |
+| TestingSuite       | main   | 287e7af   | feat: add us-07          |                     | Jun 3, 2024         |
+
+
 #### 7.2.1.5. Execution Evidence for Sprint Review. 
+
+- Despliegue de Backend
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review. 
+
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
 ## 7.3. Validation Interviews. 
 7.3.1. Diseño de Entrevistas. 
 7.3.2. Registro de Entrevistas. 
 7.3.3. Evaluaciones según heurísticas. 
-7.4. 
-Video About-the-Product. 
+7.4. Video About-the-Product. 
