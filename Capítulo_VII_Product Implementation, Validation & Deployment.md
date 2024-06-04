@@ -241,7 +241,9 @@ Durante este Sprint, se completó el desarrollo para implementar la funcionalida
 - Despliegue de Backend
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review. 
+![component](Resources/Services Documentation Evidence for Sprint Review/SprintRev2.png)
 
+![component](Resources/Services Documentation Evidence for Sprint Review/SprintRev1.png)
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
 
