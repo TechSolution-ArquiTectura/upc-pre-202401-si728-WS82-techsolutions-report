@@ -1,0 +1,121 @@
+# Capítulo VII:  Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management
+### 7.1.1. Software Development Environment Configuration
+
+Utilizaremos principalmente los siguientes IDEs: 
+- Visual Studio Code  (https://code.visualstudio.com/ ) o WebStorm (https://www.jetbrains.com/webstorm/ ), cada una con la configuración debida para no generar conflictos con las carpetas ‘.idea’ y ‘.vscode’. 
+- IntelliJ IDEA Ultimate (https://www.jetbrains.com/idea/ ) para la implementación de las APIs.
+Como herramientas de desarrollo se utilizará: 
+- Node.js (https://nodejs.org/ ) en su última versión disponible de tipo Long-Term Support (LTS), la cual en este momento es la versión 16. 
+Como administrador de dependencias se utilizará:
+- NPM 8 (https://npmjs.com/ ), el cual es el por defecto actualmente con Node.js 16. Este será instalado a través de nvm, ya sea su versión para Linux (https://github.com/nvmsh/nvm ) o Windows (https://github.com/coreybutler/nvm-windows ).
+Para el desarrollo del frontend:
+- Se hará uso del framework Angular CLI la versión 15.1.6 (https://angular.io/quick-start ). Como framework de diseño se usará Angular Material (https://material.angular.io/ ). 
+Para el desarrollo del backend, utilizaremos:
+- Java (https://docs.oracle.com/en/java/ ) en su versión 16.
+
+Como herramientas:
+- SaSS. 
+- GitHub (https://github.com/ ) como herramienta de colaboración de código. 
+- Jira Software (https://www.atlassian.com/software/jira) para la 5 CHAPTER 100 elaboración del Product Backlog. 
+- Vertabelo (https://vertabelo.com/) será utilizado para el desarrollo del diagrama de bases de datos. 
+- LucidChart (https://www.lucidchart.com/) para la creación de diagramas diversos.
+
+### 7.1.2. Source Code Management
+
+Utilizaremos GitHub para llevar el control de nuestras versiones de desarrollo, hemos creado una organización llamada SI9ATechSolution en las que tenemos todos los repositorios necesarios: https://github.com/SI9ATechSolution . Asimismo, se adjuntan los enlaces correspondientes a los repositorios de cada una de las soluciones implementadas.
+
+| Solución  | Nombre de repositorio | Enlace                                                         |
+|-----------|-----------------------|---------------------------------------------------------------|
+| Backend   | Backend               | [https://github.com/TechSolution-ArquiTectura/Backend](https://github.com/TechSolution-ArquiTectura/Backend)   |
+| Frontend  | Frontend              | [https://github.com/TechSolution-ArquiTectura/Frontend](https://github.com/TechSolution-ArquiTectura/Frontend) |
+
+
+### 7.1.3. Source Code Style Guide & Conventions
+
+Para las convenciones o estilos de programación, seguiremos convenciones básicas de camelCase y UpperCamelCase según el caso. Además, la guía de estilo de Google para programar en HTML y CSS (Google HTML/CSS Style Guide). 
+En cuanto a las convenciones para el control de versiones, utilizaremos conventional commits tanto para la creación de ramas como para la creación de commits.
+Ejemplo:
+- Rama: feature/us-xx
+- Commit: feat(ui): added main component template.
+Con respecto a la creación de ramas, se utilizarán feature branches siguiendo el modelo de GitFlow, con la nomenclatura mencionada previamente. Nuestra rama principal será la rama main, la cual contendrá nuestra versión de la aplicación que se encuentra en producción. Todas las feature branches y hotfixes se realizarán a esta rama, la cual será desplegada automáticamente gracias a la integración con Cloudflare Pages.
+SS
+
+### 7.1.4. Software Deployment Configuration
+
+Para el despliegue de la aplicación web se utilizarán dos servicios en la nube en su versión gratuita. 
+Aplicación frontend:
+Para el despliegue del frontend en Angular se utilizará GitHub Pages (https://pages.github.com/).  Para ello, se deberán seguir los siguientes pasos: 
+1. Instalar Angular CLI gh-pages como dependencia del proyecto:
+$ npm i angular-cli-ghpages –save-dev
+
+2. Ejecutar la compilación de la aplicación en un servidor remoto de gh-pages a través del comando:
+$ ng build --prod --base-href "https://GithubUserName.github.io/GithubRepoName/"
+
+3.	Implementar en gh-pages utilizando angular-cli-ghpages:
+$ npx angular-cli-ghpages --dir=dist/nombre-proyecto
+
+Aplicación backend:
+
+Para el despliegue del backend en Java 16 se utilizará el servicio Railway (https://railway.app/). Para ello, se deberá seguir los siguientes pasos:
+1. Cambiar el JDK a uno admitido por el servicio: (19, 17, 11, 8).
+2. Vincular el repositorio de GitHub con Railway.
+3. Realizar el despliegue continuo.
+
+## 7.2. Solution Implementation
+### 7.2.1. Sprint 1 
+
+#### 7.2.1.1. Sprint Planning 1
+
+| Sprint #                       | Sprint 1                                                     |
+|--------------------------------|--------------------------------------------------------------|
+| **Sprint Planning Background** |                                                              |
+| Date                           | 27/05/2023                                                   |
+| Time                           | 09:00 AM                                                     |
+| Location                       | Reunión virtual mediante la aplicación Discord               |
+| Prepared by                    | Cristian Aldair Bonifacio                                                |
+| **Attendees (to planning meeting)** | Fiestas Axel , Almeyda Fredy, Chincha Alessandro , Vasquez Tania |
+| **Sprint Goal & User Stories** |                                                              |
+| Sprint 1 Goal                  | Implementar la funcionalidad de pago con MetaMask en la aplicación Angular, permitiendo a los usuarios conectarse a sus billeteras Ethereum y realizar pagos utilizando la criptomoneda ETH.|
+| Sprint 1 Velocity              | Para este sprint hemos considerado aceptar como máximo 36 story points. |
+| Sum of Story Points            | 36                                                           |
+
+
+#### 7.2.1.2. Sprint Backlog 1. 
+
+# Sprint 1: Mejora del diagrama de base de datos y el backend
+
+| User Story ID | Title                            | ID  | Task Title                              | Description                                                                                     | Estimation (Hours) | Assigned To      | Status         |
+|---------------|----------------------------------|-----|-----------------------------------------|-------------------------------------------------------------------------------------------------|--------------------|------------------|----------------|
+| US007         | Reservar ticket                  | T10 | Reservar un boleto exitosamente         | Implementar la lógica para reservar un boleto exitosamente                                       | 5                  | Axel Fiestas     | To-do          |
+|               |                                  | T11 | Ver información de la película y funciones disponibles | Mostrar la información de la película y las funciones disponibles                                | 3                  | Tania Vásquez    | To-do          |
+| US008         | Pagar boleto reservado en pasarela con diversas opciones de pago | T12 | Validación de número de tarjeta no admitida | Implementar la validación del número de tarjeta de una red de pago no admitida                    | 4                  | Almeyda Fredy    | To-do          |
+|               |                                  | T13 | Validación de número de tarjeta admitida | Implementar la validación del número de tarjeta de una red de pago admitida                       | 4                  | Almeyda Fredy    | To-do          |
+|               |                                  | T14 | Validación de datos no admitidos        | Implementar la validación de datos no admitidos para la tarjeta seleccionada                      | 5                  | Chincha Alessandro | To-do          |
+|               |                                  | T15 | Validación de datos admitidos           | Implementar la validación de datos admitidos para la tarjeta seleccionada                         | 5                  | Chincha Alessandro | To-do          |
+|               |                                  | T16 | Manejo de fondos insuficientes          | Implementar el manejo de fondos insuficientes durante la transacción                              | 4                  | Cristian Aldair  | To-do          |
+|               |                                  | T17 | Manejo de fondos suficientes            | Implementar el manejo de fondos suficientes durante la transacción                                | 4                  | Cristian Aldair  | To-do          |
+|               |                                  | T18 | Integración de MetaMask                 | Implementar la integración con MetaMask para pagos con criptomonedas                              | 6                  | Axel Fiestas     | To-do          |
+|               |                                  | T19 | Validación de MetaMask no instalado o sin sesión iniciada | Manejar el caso en el que MetaMask no está instalado o la sesión no está iniciada                 | 4                  | Axel Fiestas     | To-do          |
+|               |                                  | T20 | Validación de MetaMask instalado y con sesión iniciada | Manejar el caso en el que MetaMask está instalado y la sesión está iniciada                       | 4                  | Axel Fiestas     | To-do          |
+|               |                                  | T21 | Transacción de criptomonedas exitosa    | Implementar la lógica para manejar una transacción de criptomonedas exitosa                       | 5                  | Tania Vásquez    | To-do          |
+|               |                                  | T22 | Transacción de criptomonedas fallida    | Implementar la lógica para manejar una transacción de criptomonedas fallida                       | 5                  | Tania Vásquez    | To-do          |
+| TS010         | Desarrollar API para iniciar el pago con MetaMask | T23 | Implementación del endpoint /api/payments/metamask/start | Implementar el endpoint para iniciar el pago con MetaMask                                         | 6                  | Chincha Alessandro | To-do          |
+| TS011         | Integrar smart contract para manejar pagos | T24 | Despliegue del smart contract           | Desarrollar y desplegar el smart contract en la red Ethereum                                      | 8                  | Cristian Aldair  | To-do          |
+|               |                                  | T25 | Confirmación de transacción por el smart contract | Implementar la lógica para confirmar la transacción mediante el smart contract                     | 6                  | Cristian Aldair  | To-do          |
+| TS012         | API para verificar el estado del pago con MetaMask | T26 | Implementación del endpoint /api/payments/metamask/verify | Implementar el endpoint para verificar el estado del pago con MetaMask                            | 6                  | Almeyda Fredy    | To-do          |
+|               |                                  | T27 | Manejo de pago no encontrado            | Implementar la lógica para manejar el caso en el que el pago no es encontrado                      | 4                  | Almeyda Fredy    | To-do          |
+
+#### 7.2.1.3. Development Evidence for Sprint Review. 
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+#### 7.2.1.5. Execution Evidence for Sprint Review. 
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review. 
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
+#### 7.2.1.8. Team Collaboration Insights during Sprint. 
+## 7.3. Validation Interviews. 
+7.3.1. Diseño de Entrevistas. 
+7.3.2. Registro de Entrevistas. 
+7.3.3. Evaluaciones según heurísticas. 
+7.4. 
+Video About-the-Product. 
