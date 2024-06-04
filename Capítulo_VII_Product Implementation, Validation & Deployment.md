@@ -263,51 +263,52 @@ La presente evidencia documenta el desarrollo de una aplicación web diseñada c
 |                 | GET    | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{userId}      | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{1}     | 200 OK, JSON con la informacion del usuario  |
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
 
-Introduction
-Durante este Sprint, se realizaron actividades significativas relacionadas con el despliegue de software tanto para la API RESTful como para el desarrollo frontend. Estas actividades incluyeron la documentación de la API utilizando Swagger, la configuración y despliegue de la API en Azure, y el desarrollo y despliegue del frontend en Angular 17 con Netlify. A continuación se detallan los pasos realizados y se incluyen capturas de pantalla que documentan el proceso.
+  **Introduction**
+      Durante este Sprint, se realizaron actividades significativas relacionadas con el despliegue de software tanto para la API RESTful como para el desarrollo         frontend. Estas actividades incluyeron la documentación de la API utilizando Swagger, la configuración y despliegue de la API en Azure, y el desarrollo y          despliegue del frontend en Angular 17 con Netlify. A continuación se detallan los pasos realizados y se incluyen capturas de pantalla que documentan el            proceso.
 
-API RESTful Deployment
-Creación de Cuentas
+  **API RESTful Deployment**
+    **Creación de Cuentas**
 
-Se crearon cuentas en GitHub y Azure para los nuevos desarrolladores, proporcionando acceso a los repositorios de código y recursos necesarios para el despliegue.
-Configuración de Recursos en Azure
+    Se crearon cuentas en GitHub y Azure para los nuevos desarrolladores, proporcionando acceso a los repositorios de código y recursos necesarios para el             despliegue.
+    
+    **Configuración de Recursos en Azure**
 
-Azure App Services: Se configuraron servicios de aplicaciones en Azure para alojar la API RESTful, asegurando un entorno escalable y seguro.
-Azure SQL Database: Se configuró una base de datos SQL en Azure para manejar el almacenamiento y gestión de datos, permitiendo transacciones seguras y eficientes.
+    Azure App Services: Se configuraron servicios de aplicaciones en Azure para alojar la API RESTful, asegurando un entorno escalable y seguro.
+    Azure SQL Database: Se configuró una base de datos SQL en Azure para manejar el almacenamiento y gestión de datos, permitiendo transacciones seguras y             eficientes.
 
-Integración y Despliegue Continuo
+    **Integración y Despliegue Continuo**
 
-GitHub Actions: Se configuraron pipelines de CI/CD utilizando GitHub Actions para automatizar la compilación, pruebas y despliegue de la API RESTful en Azure.
+    GitHub Actions: Se configuraron pipelines de CI/CD utilizando GitHub Actions para automatizar la compilación, pruebas y despliegue de la API RESTful en Azure.
 
-Documentación con Swagger
+    **Documentación con Swagger**  
 
-Se utilizó Swagger para la documentación de la API, proporcionando una interfaz interactiva para explorar y probar los endpoints de la API.
+    Se utilizó Swagger para la documentación de la API, proporcionando una interfaz interactiva para explorar y probar los endpoints de la API.
 
-Frontend Deployment
+    **Frontend Deployment**
 
-Configuración de Recursos en Netlify
-Netlify: Se configuró Netlify para el despliegue del frontend desarrollado en Angular 17, proporcionando un entorno de alojamiento estático eficiente y fácil de usar.
+    Configuración de Recursos en Netlify
+      Netlify: Se configuró Netlify para el despliegue del frontend desarrollado en Angular 17, proporcionando un entorno de alojamiento estático eficiente y            fácil de usar.
 
-Integración y Despliegue Continuo
-GitHub Actions: Se configuraron pipelines de CI/CD para automatizar la compilación y despliegue del frontend en Netlify.
+      Integración y Despliegue Continuo
+      GitHub Actions: Se configuraron pipelines de CI/CD para automatizar la compilación y despliegue del frontend en Netlify.
 
 
-Documentación de Cambios
-Se documentaron todos los cambios realizados en el proceso de despliegue, incluyendo:
+    **Documentación de Cambios**
+      Se documentaron todos los cambios realizados en el proceso de despliegue, incluyendo:
 
-Commits en el Repositorio: Cada cambio significativo en la configuración del despliegue se registró con mensajes de commit claros y detallados.
-Casos de Prueba: Se crearon y ejecutaron casos de prueba para garantizar que cada parte del sistema se despliegue y funcione correctamente.
+      Commits en el Repositorio: Cada cambio significativo en la configuración del despliegue se registró con mensajes de commit claros y detallados.
+      Casos de Prueba: Se crearon y ejecutaron casos de prueba para garantizar que cada parte del sistema se despliegue y funcione correctamente.
 
-Evidencia Visual
-Configuración de Azure App Services para la API RESTful
+    **Evidencia Visual**
+    Configuración de Azure App Services para la API RESTful
 
-Pipeline de CI/CD en GitHub Actions para la API RESTful
+    Pipeline de CI/CD en GitHub Actions para la API RESTful
 
-Documentación de la API con Swagger
+    Documentación de la API con Swagger
 
-Configuración de Netlify para el Frontend
+    Configuración de Netlify para el Frontend
 
-Pipeline de CI/CD en GitHub Actions para el Frontend
+    Pipeline de CI/CD en GitHub Actions para el Frontend
 
 
 
