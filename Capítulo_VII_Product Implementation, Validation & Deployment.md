@@ -84,27 +84,27 @@ Para el despliegue del backend en Java 16 se utilizará el servicio Railway (htt
 
 #### 7.2.1.2. Sprint Backlog 1. 
 
-# Sprint 1: Mejora del diagrama de base de datos y el backend
+# Sprint 1: Implementar la funcionalidad de pago con MetaMask
 
 | User Story ID | Title                            | ID  | Task Title                              | Description                                                                                     | Estimation (Hours) | Assigned To      | Status         |
 |---------------|----------------------------------|-----|-----------------------------------------|-------------------------------------------------------------------------------------------------|--------------------|------------------|----------------|
-| US007         | Reservar ticket                  | T10 | Reservar un boleto exitosamente         | Implementar la lógica para reservar un boleto exitosamente                                       | 5                  | Axel Fiestas     | To-do          |
-|               |                                  | T11 | Ver información de la película y funciones disponibles | Mostrar la información de la película y las funciones disponibles                                | 3                  | Tania Vásquez    | To-do          |
-| US008         | Pagar boleto reservado en pasarela con diversas opciones de pago | T12 | Validación de número de tarjeta no admitida | Implementar la validación del número de tarjeta de una red de pago no admitida                    | 4                  | Almeyda Fredy    | To-do          |
-|               |                                  | T13 | Validación de número de tarjeta admitida | Implementar la validación del número de tarjeta de una red de pago admitida                       | 4                  | Almeyda Fredy    | To-do          |
+| US007         | Reservar ticket                  | T10 | Reservar un boleto exitosamente         | Implementar la lógica para reservar un boleto exitosamente                                       | 5                  | Axel Fiestas     | Done         |
+|               |                                  | T11 | Ver información de la película y funciones disponibles | Mostrar la información de la película y las funciones disponibles                                | 3                  | Tania Vásquez    | Done         |
+| US008         | Pagar boleto reservado en pasarela con diversas opciones de pago | T12 | Validación de número de tarjeta no admitida | Implementar la validación del número de tarjeta de una red de pago no admitida                    | 4                  | Almeyda Fredy    | In process          |
+|               |                                  | T13 | Validación de número de tarjeta admitida | Implementar la validación del número de tarjeta de una red de pago admitida                       | 4                  | Almeyda Fredy    | In process          |
 |               |                                  | T14 | Validación de datos no admitidos        | Implementar la validación de datos no admitidos para la tarjeta seleccionada                      | 5                  | Chincha Alessandro | To-do          |
 |               |                                  | T15 | Validación de datos admitidos           | Implementar la validación de datos admitidos para la tarjeta seleccionada                         | 5                  | Chincha Alessandro | To-do          |
 |               |                                  | T16 | Manejo de fondos insuficientes          | Implementar el manejo de fondos insuficientes durante la transacción                              | 4                  | Cristian Aldair  | To-do          |
 |               |                                  | T17 | Manejo de fondos suficientes            | Implementar el manejo de fondos suficientes durante la transacción                                | 4                  | Cristian Aldair  | To-do          |
-|               |                                  | T18 | Integración de MetaMask                 | Implementar la integración con MetaMask para pagos con criptomonedas                              | 6                  | Axel Fiestas     | To-do          |
-|               |                                  | T19 | Validación de MetaMask no instalado o sin sesión iniciada | Manejar el caso en el que MetaMask no está instalado o la sesión no está iniciada                 | 4                  | Axel Fiestas     | To-do          |
-|               |                                  | T20 | Validación de MetaMask instalado y con sesión iniciada | Manejar el caso en el que MetaMask está instalado y la sesión está iniciada                       | 4                  | Axel Fiestas     | To-do          |
+|               |                                  | T18 | Integración de MetaMask                 | Implementar la integración con MetaMask para pagos con criptomonedas                              | 6                  | Axel Fiestas     | Done          |
+|               |                                  | T19 | Validación de MetaMask no instalado o sin sesión iniciada | Manejar el caso en el que MetaMask no está instalado o la sesión no está iniciada                 | 4                  | Axel Fiestas     | In process          |
+|               |                                  | T20 | Validación de MetaMask instalado y con sesión iniciada | Manejar el caso en el que MetaMask está instalado y la sesión está iniciada                       | 4                  | Axel Fiestas     | In process          |
 |               |                                  | T21 | Transacción de criptomonedas exitosa    | Implementar la lógica para manejar una transacción de criptomonedas exitosa                       | 5                  | Tania Vásquez    | To-do          |
 |               |                                  | T22 | Transacción de criptomonedas fallida    | Implementar la lógica para manejar una transacción de criptomonedas fallida                       | 5                  | Tania Vásquez    | To-do          |
-| TS010         | Desarrollar API para iniciar el pago con MetaMask | T23 | Implementación del endpoint /api/payments/metamask/start | Implementar el endpoint para iniciar el pago con MetaMask                                         | 6                  | Chincha Alessandro | To-do          |
-| TS011         | Integrar smart contract para manejar pagos | T24 | Despliegue del smart contract           | Desarrollar y desplegar el smart contract en la red Ethereum                                      | 8                  | Cristian Aldair  | To-do          |
+| TS010         | Desarrollar API para iniciar el pago con MetaMask | T23 | Implementación del endpoint /api/payments/metamask/start | Implementar el endpoint para iniciar el pago con MetaMask                                         | 6                  | Chincha Alessandro | In process         |
+| TS011         | Integrar smart contract para manejar pagos | T24 | Despliegue del smart contract           | Desarrollar y desplegar el smart contract en la red Ethereum                                      | 8                  | Cristian Aldair  | In process          |
 |               |                                  | T25 | Confirmación de transacción por el smart contract | Implementar la lógica para confirmar la transacción mediante el smart contract                     | 6                  | Cristian Aldair  | To-do          |
-| TS012         | API para verificar el estado del pago con MetaMask | T26 | Implementación del endpoint /api/payments/metamask/verify | Implementar el endpoint para verificar el estado del pago con MetaMask                            | 6                  | Almeyda Fredy    | To-do          |
+| TS012         | API para verificar el estado del pago con MetaMask | T26 | Implementación del endpoint /api/payments/metamask/verify | Implementar el endpoint para verificar el estado del pago con MetaMask                            | 6                  | Almeyda Fredy    | In process          |
 |               |                                  | T27 | Manejo de pago no encontrado            | Implementar la lógica para manejar el caso en el que el pago no es encontrado                      | 4                  | Almeyda Fredy    | To-do          |
 
 #### 7.2.1.3. Development Evidence for Sprint Review. 
@@ -351,6 +351,96 @@ Durante las entrevistas, nos presentaremos al entrevistado y explicaremos en qu�
 - ¿Cómo podríamos facilitar la exploración y descubrimiento de películas y eventos interesantes en la aplicación?
 - ¿Tienes alguna otra sugerencia o comentario sobre la aplicación web para cinéfilos?
 
-### 7.3.2. Registro de Entrevistas 
+### 7.3.2. Registro de Entrevistas
+
+### Cinéfilos:
+
+#### Primera entrevista
+- **Entrevistado:** Delia Vasquez
+- **Edad:** 20 años
+- **Residencia:** Surco
+- **Ocupación:** Estudiante
+- **Entrevistador:** Alan Galavis
+- **Enlace:** [Entrevista Delia Vasquez]()
+
+Delia es una estudiante universitaria que en sus tiempos libres disfruta de ver películas de nicho. Está familiarizada con el concepto de “cineclubes” y afirma que la plataforma presentada le resulta de utilidad para descubrir nuevos filmes de interés y formar parte de una comunidad amante de sus mismos intereses. Asegura que la distribución de la información es apropiada y accesible, adicionalmente indica que los colores son llamativos. Delia finaliza la entrevista con un mensaje de aprobación hacia el proyecto.
+
+#### Segunda entrevista
+- **Entrevistado:** Yosef Vásquez Carrión
+- **Edad:** 20 años
+- **Residencia:** San Martín de Porres
+- **Ocupación:** Estudiante
+- **Entrevistador:** Tania Vásquez
+- **Enlace:** [Entrevista Yosef Vásquez Carrión]()
+
+En la entrevista Yosef menciona que la usabilidad para acceder a las funcionalidades es sencilla y fácil, por lo que no hay mayor confusión en el flujo de reserva. Sin embargo, menciona que sería genial si para los datos como correo electrónico fueran sugeridos cuando tenga que completar algún otro campo que requiera el mismo dato. Por otro lado, menciona que en los métodos de pagos se podrían incluir las que están en tendencia como Yape, Plin y Paypal. Además, como sugerencia menciona que en la sección de comentarios cada usuario debería tener un perfil público en el cual se puedan observar las películas que ellos marcan como favorito y de esa forma descubrir más contenido. Perfiles con alto nivel actividad tienden a influir y generar curiosidad por las películas que consideran de calidad, de esa forma se podría generar una comunidad más activa.
+
+#### Tercera entrevista
+- **Entrevistado:** Sergio Velásquez
+- **Edad:** 27 años
+- **Residencia:** San Borja
+- **Ocupación:** Senior O&M Specialist
+- **Entrevistador:** Andrés Soto
+- **Enlace:** [Entrevista Sergio Velásquez]()
+
+Durante la entrevista, Sergio pudo explorar la interfaz ofrecida por nuestra aplicación web, así como las características desarrolladas e implementadas. Considera que es una aplicación muy completa, con una usabilidad muy sencilla que permite al usuario ir directo a su objetivo. Además, menciona que sería de gran ayuda conectar dicha aplicación con un API de Google Maps para que se pueda ver mediante Google Maps la ubicación del cineclub, lo cual proporcionaría mayor comodidad al usuario al momento de buscar la dirección. De la misma forma, considera que la opción de un blog donde los cinéfilos puedan comunicarse mejoraría la interacción entre ellos.
+
+#### Cuarta entrevista
+- **Entrevistado:** Sergio Flores
+- **Edad:** 20 años
+- **Residencia:** Villa el Salvador
+- **Ocupación:** Estudiante
+- **Entrevistador:** Vanessa Flores
+- **Enlace:** [Entrevista Sergio Flores]()
+
+Sergio es un estudiante de la Carrera de Ciencias de la Computación. Durante la entrevista interactuó con la página de TuCine y concluyó que en el perfil del cineclub se debería agregar más información y mejorar la calidad de los banners. Asimismo, considera que en los placeholders de los inputs se deberían colocar un ejemplo de como llenarlos. Finalmente comenta que también se debería de mejorar los colores de la aplicación.
+
+
 ### 7.3.3. Evaluaciones según heurísticas
+<<<<<<< Updated upstream
 ##7.4. Video About-the-Product
+=======
+
+Evaluaciones según heurísticas
+Site o app a evaluar: TuCine
+Tareas para evaluar: 
+-	Modificar información de Cineclubs
+-	Editar perfil de usuario 
+-	Agregar peliculas
+-	Registro y logueo del usuario 
+
+Tareas no incluidas en esta versión de evaluación:
+-	Notificaciones 
+-	Mensajes
+
+Escala de severidad: 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad 
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: Puede ser fácilmente superado por el usuario o no sucede con mucha frecuencia. No necesita ser arreglado a corto plazo dada su poca disponibilidad de tiempo. |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar por el usuario. Se le debe asignar una prioridad baja resolviendo de cara al siguiente lanzamiento. |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema crítico: Un error del sistema completo que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+
+| # | Problema                                                                                                                                                     | Escala de severidad | Heurística/Principio violada(o)               |
+|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------|
+| 1 | La sección de perfil de películas presenta un estilo de diseño diferente al resto de la aplicación                                                                        | 4                  | Consistencia y estándares                      |
+| 2 | La sección de Mis grupos presenta un esquema visual diferente a los demás secciones de la aplicación                                                                 | 3                  | Consistencia y estándares                      |
+| 3 | La sección de promociones no está implementada                                                                                                                | 4                  | Visibilidad al sistema                         |
+| 4 | No se pueden revisar notificaciones                                                                                                                               | 3                  | Libertad y control del usuario                 |
+| 5 | No existe una sección que muestre un mensaje entre el propietario de cineclub y el cinéfilo                                                                   | 3                  | Libertad y control del usuario                 |
+
+
+**Problema:** Mensajes de error poco claros al ingresar datos de la tarjeta.
+
+**Severidad:** 2 (Problema menor).
+
+**Heurística violada:** Prevención de errores.
+
+**Recomendación:** Proporcionar mensajes de error más claros y sugerencias específicas para corregirlos, como “4432 4253 4523 5325” o “Revise el número de tarjeta e ingrese los 16 dígitos”.
+
+
+##7.4. Video About-the-Product
+>>>>>>> Stashed changes
