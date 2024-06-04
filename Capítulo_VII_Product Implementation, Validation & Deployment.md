@@ -238,7 +238,19 @@ Durante este Sprint, se completó el desarrollo para implementar la funcionalida
 
 #### 7.2.1.5. Execution Evidence for Sprint Review. 
 
-- Despliegue de Backend
+- Web Aplication
+
+La presente evidencia documenta el desarrollo de una aplicación web diseñada con el objetivo de integrar MetaMask como pasarela de pagos, permitiendo a los usuarios realizar transacciones utilizando criptomonedas. El proceso incluyó la creación de varias historias de usuario y tareas específicas para asegurar una implementación robusta y eficiente. Entre las tareas destacadas se encuentran la implementación de la API RESTful para iniciar y verificar pagos con MetaMask, la integración de contratos inteligentes para manejar transacciones en la blockchain de Ethereum, y la validación de diversos escenarios de pago, incluyendo la gestión de fondos insuficientes y errores de transacción. Cada componente fue desarrollado y asignado a miembros específicos del equipo, garantizando una distribución equilibrada del trabajo y un enfoque colaborativo en la realización de los objetivos del sprint. La integración de MetaMask ofrece a los usuarios una opción segura y moderna para realizar pagos, alineando la aplicación con las tendencias actuales en tecnología financiera y mejorando la experiencia del usuario final.
+
+![UX](Resources/execution_evidence/wa_1.png)
+
+![UX](Resources/execution_evidence/wa_2.png)
+
+![UX](Resources/execution_evidence/wa_3.png)
+
+- Integración con MetaMask
+
+
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -251,10 +263,53 @@ Durante este Sprint, se completó el desarrollo para implementar la funcionalida
 |                 | GET    | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{userId}      | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{1}     | 200 OK, JSON con la informacion del usuario  |
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
 
+- API RestFul
+
+
+
+
+- Frontend
+
+
+
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint. 
-## 7.3. Validation Interviews. 
-7.3.1. Diseño de Entrevistas. 
-7.3.2. Registro de Entrevistas. 
-7.3.3. Evaluaciones según heurísticas. 
-7.4. Video About-the-Product. 
+
+
+
+
+
+## 7.3. Validation Interviews
+### 7.3.1. Diseño de Entrevistas
+
+Durante las entrevistas, nos presentaremos al entrevistado y explicaremos en qué consistirá la sesión.
+
+**Segmento: Propietarios de cineclubs, cine cafés o cine bares**
+
+- ¿Cómo consideras que la aplicación web puede beneficiar a tu negocio?
+- ¿Encuentras la interfaz de la aplicación intuitiva y fácil de usar?
+- ¿Qué funcionalidades específicas te gustaría tener en la aplicación para gestionar mejor tu cineclub?
+- ¿Qué información consideras importante mostrar en la página de perfil de tu cineclub?
+- ¿Cómo te gustaría interactuar con los cinéfilos a través de la aplicación?
+- ¿Qué herramientas o características te parecerían útiles para promocionar eventos y atraer a más audiencia?
+- ¿Consideras que la aplicación web proporciona suficiente visibilidad a tu cineclub en comparación con otros canales de promoción?
+- ¿Qué aspectos del proceso de reserva de entradas o boletos te gustaría mejorar en la aplicación?
+- ¿Cómo podríamos facilitar la gestión de horarios y programación de películas en la aplicación?
+- ¿Tienes alguna otra sugerencia o comentario sobre la aplicación web para propietarios de cineclubs?
+
+**Segmento: Cinéfilos**
+
+- ¿Qué opinas de la experiencia de usar la aplicación web como cinéfilo?
+- ¿Consideras que la interfaz de la aplicación es amigable y te permite encontrar fácilmente información sobre películas y eventos?
+- ¿Qué funcionalidades adicionales te gustaría tener en la aplicación como cinéfilo?
+- ¿Qué información sobre películas, horarios o eventos consideras más relevante y te gustaría encontrar fácilmente?
+- ¿Cómo te gustaría interactuar con otros cinéfilos a través de la aplicación?
+- ¿Qué características te gustaría tener para personalizar tus preferencias de películas y recibir recomendaciones personalizadas?
+- ¿Encuentras que la aplicación te brinda suficiente información sobre los cineclubs y eventos de cine alternativo?
+- ¿Qué aspectos del proceso de reserva de entradas o boletos te gustaría mejorar en la aplicación?
+- ¿Cómo podríamos facilitar la exploración y descubrimiento de películas y eventos interesantes en la aplicación?
+- ¿Tienes alguna otra sugerencia o comentario sobre la aplicación web para cinéfilos?
+
+### 7.3.2. Registro de Entrevistas 
+### 7.3.3. Evaluaciones según heurísticas
+##7.4. Video About-the-Product
