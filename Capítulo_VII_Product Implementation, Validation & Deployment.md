@@ -240,11 +240,15 @@ Durante este Sprint, se completó el desarrollo para implementar la funcionalida
 
 - Despliegue de Backend
 
-#### 7.2.1.6. Services Documentation Evidence for Sprint Review. 
-![component](Resources/Services Documentation Evidence for Sprint Review/SprintRev2.png)
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
-![component](Resources/Services Documentation Evidence for Sprint Review/SprintRev1.png)
-
+| EndPoint        | Method | Description                                                            | Request                                                          | Response                                     |
+|-----------------|--------|------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------|
+|                 | GET    | http://localhost:8080/api/TuCine/v1/paymentMethods                     | http://localhost:8080/api/TuCine/v1/paymentMethods               | 200 OK, JSON con la lista de metodos de pago |
+|                 | POST   | http://localhost:8080/api/TuCine/v1/paymentsMethods                    | http://localhost:8080/api/TuCine/v1/paymentsMethods              | 200 OK, JSON publicando metodo de pago       |
+| Payment Methods | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}               | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}          | 200 OK, JSON Borrando la información         |
+|                 | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}/user/{userId} | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}/user/{1} | 200 OK, JSON Borrando metodo del usuario     |
+|                 | GET    | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{userId}      | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{1}     | 200 OK, JSON con la informacion del usuario  |
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review. 
 
 
