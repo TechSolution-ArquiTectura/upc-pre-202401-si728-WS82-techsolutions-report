@@ -397,9 +397,6 @@ Sergio es un estudiante de la Carrera de Ciencias de la Computación. Durante la
 
 
 ### 7.3.3. Evaluaciones según heurísticas
-<<<<<<< Updated upstream
-##7.4. Video About-the-Product
-=======
 
 Evaluaciones según heurísticas
 Site o app a evaluar: TuCine
@@ -442,5 +439,4 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Proporcionar mensajes de error más claros y sugerencias específicas para corregirlos, como “4432 4253 4523 5325” o “Revise el número de tarjeta e ingrese los 16 dígitos”.
 
 
-##7.4. Video About-the-Product
->>>>>>> Stashed changes
+## 7.4. Video About-the-Product
