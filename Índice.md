@@ -13,4 +13,13 @@
   <li>
     <a href="https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/blob/develop/Cap%C3%ADtilo_IV_Solution_Software_Design.md">Capítulo IV: Solution Software Design</a>
   </li>
+    <li>
+    <a href="https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/blob/develop/Cap%C3%ADtulo_V_Tactical-Level%20Software%20Design.md">Capítulo V: Tactical-Level Software Design</a>
+  </li>
+    <li>
+    <a href="https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/blob/develop/Cap%C3%ADtulo_VI_Solution_UX_Design.md">Capítulo VI: Solution_UX_Design</a>
+  </li>
+    <li>
+    <a href="https://github.com/TechSolution-ArquiTectura/upc-pre-202401-si728-WS82-techsolutions-report/blob/develop/Cap%C3%ADtulo_VII_Product%20Implementation%2C%20Validation%20%26%20Deployment.md">Capítulo VII: Product Implementation, Validation & Deployment</a>
+  </li>
 </ol>
