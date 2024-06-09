@@ -361,7 +361,7 @@ Durante las entrevistas, nos presentaremos al entrevistado y explicaremos en qu�
 - **Residencia:** Surco
 - **Ocupación:** Estudiante
 - **Entrevistador:** Alan Galavis
-- **Enlace:** [Entrevista Delia Vasquez]()
+- **Enlace:** [Entrevista Delia Vasquez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010840_upc_edu_pe/EXVSje4cqFRBidCzJco_4K4Bx_1WVFL9MqXq1aNDwVt87w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lQqA7Z)
 
 Delia es una estudiante universitaria que en sus tiempos libres disfruta de ver películas de nicho. Está familiarizada con el concepto de “cineclubes” y afirma que la plataforma presentada le resulta de utilidad para descubrir nuevos filmes de interés y formar parte de una comunidad amante de sus mismos intereses. Asegura que la distribución de la información es apropiada y accesible, adicionalmente indica que los colores son llamativos. Delia finaliza la entrevista con un mensaje de aprobación hacia el proyecto.
 
@@ -371,7 +371,7 @@ Delia es una estudiante universitaria que en sus tiempos libres disfruta de ver 
 - **Residencia:** San Martín de Porres
 - **Ocupación:** Estudiante
 - **Entrevistador:** Tania Vásquez
-- **Enlace:** [Entrevista Yosef Vásquez Carrión]()
+- **Enlace:** [Entrevista Yosef Vásquez Carrión](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010840_upc_edu_pe/EXVSje4cqFRBidCzJco_4K4Bx_1WVFL9MqXq1aNDwVt87w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lQqA7Z)
 
 En la entrevista Yosef menciona que la usabilidad para acceder a las funcionalidades es sencilla y fácil, por lo que no hay mayor confusión en el flujo de reserva. Sin embargo, menciona que sería genial si para los datos como correo electrónico fueran sugeridos cuando tenga que completar algún otro campo que requiera el mismo dato. Por otro lado, menciona que en los métodos de pagos se podrían incluir las que están en tendencia como Yape, Plin y Paypal. Además, como sugerencia menciona que en la sección de comentarios cada usuario debería tener un perfil público en el cual se puedan observar las películas que ellos marcan como favorito y de esa forma descubrir más contenido. Perfiles con alto nivel actividad tienden a influir y generar curiosidad por las películas que consideran de calidad, de esa forma se podría generar una comunidad más activa.
 
@@ -381,7 +381,7 @@ En la entrevista Yosef menciona que la usabilidad para acceder a las funcionalid
 - **Residencia:** San Borja
 - **Ocupación:** Senior O&M Specialist
 - **Entrevistador:** Andrés Soto
-- **Enlace:** [Entrevista Sergio Velásquez]()
+- **Enlace:** [Entrevista Sergio Velásquez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010840_upc_edu_pe/EXVSje4cqFRBidCzJco_4K4Bx_1WVFL9MqXq1aNDwVt87w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lQqA7Z)
 
 Durante la entrevista, Sergio pudo explorar la interfaz ofrecida por nuestra aplicación web, así como las características desarrolladas e implementadas. Considera que es una aplicación muy completa, con una usabilidad muy sencilla que permite al usuario ir directo a su objetivo. Además, menciona que sería de gran ayuda conectar dicha aplicación con un API de Google Maps para que se pueda ver mediante Google Maps la ubicación del cineclub, lo cual proporcionaría mayor comodidad al usuario al momento de buscar la dirección. De la misma forma, considera que la opción de un blog donde los cinéfilos puedan comunicarse mejoraría la interacción entre ellos.
 
@@ -391,7 +391,7 @@ Durante la entrevista, Sergio pudo explorar la interfaz ofrecida por nuestra apl
 - **Residencia:** Villa el Salvador
 - **Ocupación:** Estudiante
 - **Entrevistador:** Vanessa Flores
-- **Enlace:** [Entrevista Sergio Flores]()
+- **Enlace:** [Entrevista Sergio Flores](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010840_upc_edu_pe/EXVSje4cqFRBidCzJco_4K4Bx_1WVFL9MqXq1aNDwVt87w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lQqA7Z)
 
 Sergio es un estudiante de la Carrera de Ciencias de la Computación. Durante la entrevista interactuó con la página de TuCine y concluyó que en el perfil del cineclub se debería agregar más información y mejorar la calidad de los banners. Asimismo, considera que en los placeholders de los inputs se deberían colocar un ejemplo de como llenarlos. Finalmente comenta que también se debería de mejorar los colores de la aplicación.
 
