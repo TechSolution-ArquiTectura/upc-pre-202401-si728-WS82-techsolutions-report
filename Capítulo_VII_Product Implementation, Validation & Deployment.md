@@ -440,3 +440,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 
 ## 7.4. Video About-the-Product
+
+![UX](Resources/images/AboutProduct.png)
+Enlace: https://www.youtube.com/watch?v=e30ivvQYvf8 
