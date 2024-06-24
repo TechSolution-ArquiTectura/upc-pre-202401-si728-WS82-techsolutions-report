@@ -379,6 +379,13 @@ Para simplificar el proceso de compra con criptomonedas.
 - **When** el sistema verifica la transacción en la blockchain
 - **Then** el sistema debe mostrar un mensaje de "Reserva exitosa" y confirmar la compra de las entradas
 
+| Repository   | Branch | Commit Id | Commit Message                   | Commit Message Body | Committed on (Date) |
+| ------------ | ------ | --------- | -------------------------------- | ------------------- | ------------------- |
+| TestingSuite | main   | 5c3b3e0   | fix: structure                   |                     | Jun 24, 2024        |
+| TestingSuite | main   | d9612bc   | feat: add new scenario for us-30 |                     | Jun 24, 2024        |
+| TestingSuite | main   | 50d08c6   | feat: add scenario for us-30     |                     | Jun 24, 2024        |
+| TestingSuite | main   | d886a7c   | feat: added add us-30            |                     | Jun 24, 2024        |
+
 ## 7.3. Validation Interviews
 
 ### 7.3.1. Diseño de Entrevistas
