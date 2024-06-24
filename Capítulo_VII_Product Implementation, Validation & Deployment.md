@@ -335,11 +335,49 @@ Durante este sprint, se implementaron funcionalidades de pago utilizando MetaMas
 | TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: Update booking-stepper.component.html with payment options and Ethereum payment functionality | 2024-06-12          |
 | TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: Remove commented out code in Cryptomus component files                                        | 2024-06-12          |
 | TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: basic currency convert PEN to ether                                                           | 2024-06-12          |
-| TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: coin market service                                                                           | 2024-06-14          |
-| TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: update service                                                                                | 2024-06-14          |
-| TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: Update booking-stepper.component.ts with HttpClient.....                                      | 2024-06-19          |
-| TechSolution-Arquitectura / Frontend | develop | 65f06b0   | feat: Add Ethereum payment functionality and switch to Base Sepolia network                         | 2024-06-19          |
-| TechSolution-Arquitectura / Frontend | develop | 65f06b0   | chore: Update proxy.conf.json to disable secure flag for /api endpoint                              | 2024-06-19          |
+| TechSolution-Arquitectura / Frontend | develop | 65f0640   | feat: coin market service                                                                           | 2024-06-14          |
+| TechSolution-Arquitectura / Frontend | develop | 65506b0   | feat: update service                                                                                | 2024-06-14          |
+| TechSolution-Arquitectura / Frontend | develop | 65fasb0   | feat: Update booking-stepper.component.ts with HttpClient.....                                      | 2024-06-19          |
+| TechSolution-Arquitectura / Frontend | develop | 65306b0   | feat: Add Ethereum payment functionality and switch to Base Sepolia network                         | 2024-06-19          |
+| TechSolution-Arquitectura / Frontend | develop | 61236b0   | chore: Update proxy.conf.json to disable secure flag for /api endpoint                              | 2024-06-19          |
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+### Feature: US030 Realizar pago con MetaMask en la aplicación Cineclub
+
+Como cinéfilo,
+Quiero pagar mis entradas utilizando MetaMask
+Para simplificar el proceso de compra con criptomonedas.
+
+**Scenario: Selección de Entradas**
+
+- **Given** el usuario ha seleccionado una película y el número de entradas
+- **When** el usuario revisa el resumen de la compra
+- **Then** el sistema debe mostrar el precio total en soles
+
+**Scenario: Elección del Método de Pago**
+
+- **Given** que el usuario está en la página de confirmación y pago
+- **When** el usuario selecciona "Pagar con Ethereum"
+- **Then** el sistema debe mostrar la opción de pagar con MetaMask y convertir el monto total en soles a Ethereum
+
+**Scenario: Conversión de Moneda**
+
+- **Given** que el usuario ha seleccionado pagar con Ethereum
+- **When** el sistema realiza la conversión del monto total en soles a Ethereum
+- **Then** el usuario debe ver el valor equivalente en Ethereum y las tarifas estimadas en la ventana de MetaMask
+
+**Scenario: Confirmación de Pago en MetaMask**
+
+- **Given** que el usuario ha revisado los detalles de la transacción en MetaMask
+- **When** el usuario confirma la transacción
+- **Then** MetaMask debe procesar la transacción y mostrar una notificación de envío
+
+**Scenario: Verificación de Transacción Exitosa**
+
+- **Given** que el usuario ha confirmado la transacción en MetaMask
+- **When** el sistema verifica la transacción en la blockchain
+- **Then** el sistema debe mostrar un mensaje de "Reserva exitosa" y confirmar la compra de las entradas
 
 ## 7.3. Validation Interviews
 
