@@ -552,3 +552,82 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![UX](Resources/images/AboutProduct.png)
 Enlace: https://www.youtube.com/watch?v=e30ivvQYvf8
+
+
+# Conclusiones
+
+- Tras finalizar el entregable del primer documento, concluimos que el trabajo en equipo permite desarrollar y completar el trabajo correctamente. Pues el equipo colaboró con el avance de cada integrante, al ofrecer ayuda. El uso de técnicas como Lean UX, entrevistar, crear User Stories, permitió que se entienda a los segmentos objetivos.
+
+- Es importante considerar soluciones que actualmente no existen en el mercado de cine clubs, con respecto al cliente y la promoción de las películas. Es por ello por lo que la aplicación busca facilitar el proceso de compra y acceso a información de los usuarios, mediante la creación de promociones y post del cine club. De esta forma beneficiando al cinéfilo y al mismo cine club.
+
+- Al diseñar la plataforma se tomó en cuenta la experiencia de usuario. Pues los usuarios suelen tener ciertas expectativas en cuanto a la interfaz. Es por ello por lo que buscamos satisfacer dichas expectativas creando una interfaz amigable e intuitiva.
+
+- La opción que los usuarios busquen cine clubes según el nombre de una película permite que algunos cines clubes menos conocidos puedan volverse más conocidos al promocionar ciertas películas.
+
+- La colaboración del equipo al juntarnos a realizar reuniones casi inter diariamente permitió que podamos avanzar grandes cantidades de trabajo en poco tiempo. De la misma forma pudimos colaborar con los miembros para ayudar a solucionar problemas.
+
+- Se logró distribuir de manera equitativa los user stories que los desarrolladores seleccionaron para realizar el entregable. Lo que permitió que durante el desarrollo no se necesite que los desarrolladores abandonen sus labores para ayudar a resolver otros problemas.
+
+- El documentar bugs permitió que podamos identificar los errores y demostrar las causas de retrasos y fallos en la aplicación. Además, generó que demostremos una mejora continua.
+
+- Al considerar la fase de testing como una etapa previa al “Done” en el tablero Kanban, garantizó que el resultado final sea de alta calidad y sin errores.
+
+- Terminar la landing page nos permitió dedicar más tiempo al desarrollo de la aplicación web, de este modo pudimos continuar mejorando y desarrollando el mismo.
+
+- La integración de tecnología emergente como el blockchain en nuestra aplicación de cine club representa un avance significativo en términos de seguridad y transparencia en las transacciones. El uso de blockchain para el procesamiento de pagos mediante criptomonedas, como Ethereum, a través de MetaMask, no solo ofrece a los usuarios una opción de pago innovadora y segura, sino que también abre nuevas oportunidades para el mercado de cine clubs al adoptar tecnologías de vanguardia. Esto asegura que las transacciones sean inmutables y verificables, aumentando la confianza de los usuarios en nuestra plataforma.
+
+# Recomendaciones
+
+- Ofrecer opciones de personalización para que los usuarios puedan adaptar la plataforma a sus necesidades individuales. Esto incluye configuraciones de usuario flexibles y opciones de interfaz personalizables.
+
+- Mantener una comunicación constante y directa con los usuarios para realizar una mejora continua según sus necesidades. Esto puede lograrse a través de encuestas periódicas, feedback en tiempo real y foros de discusión dedicados.
+
+- Promover la inclusión y diversidad en la plataforma, asegurando que sea accesible y atractiva para una amplia variedad de grupos demográficos. Esto incluye la consideración de diferentes idiomas, accesibilidad para personas con discapacidades y representación cultural diversa.
+
+- Mejorar la gestión del tiempo y la disposición de las user stories a realizar. Implementar herramientas de gestión de proyectos efectivas y realizar revisiones periódicas de los avances para asegurar que las tareas se completen dentro de los plazos establecidos.
+
+- Coordinar de manera óptima la disposición y horarios de las reuniones para maximizar la productividad del equipo. Establecer horarios de reuniones fijos y utilizar herramientas de programación para encontrar los momentos más convenientes para todos los miembros del equipo.
+
+- Establecer colaboraciones con otros proyectos y plataformas basadas en blockchain para expandir las funcionalidades y el alcance de la plataforma de cine club. Esto podría incluir integraciones con otras aplicaciones descentralizadas (dApps) y servicios de blockchain.
+
+# Bibliografía
+
+- **As-is Scenario Map: Build a better understanding of your users’ current experience.**  
+  Recuperado de: [https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map](https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map)  
+  [Consulta: 28 de mayo de 2024].
+
+- **Empathy Map: Build empathy for your users through a conversation informed by your team’s observations.**  
+  Recuperado de: [https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map](https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map)  
+  [Consulta: 2 de junio de 2024].
+
+- **Empathy Mapping: The First Step in Design Thinking.**  
+  Recuperado de: [https://www.nngroup.com/articles/empathy-mapping/](https://www.nngroup.com/articles/empathy-mapping/)  
+  [Consulta: 5 de junio de 2024].
+
+- **Gestión. (20 de diciembre de 2021). Industria peruana de cine crecerá 42% hasta el 2025, según PwC.**  
+  Recuperado de: [https://gestion.pe/economia/empresas/industria-peruana-de-cine-crecera-42-hasta-el-2025-segun-pwc-noticia/?ref=gesr](https://gestion.pe/economia/empresas/industria-peruana-de-cine-crecera-42-hasta-el-2025-segun-pwc-noticia/?ref=gesr)  
+  [Consulta: 15 de mayo de 2024].
+
+- **How to create an Impact Map in 4 easy steps?**  
+  Recuperado de: [https://uxpressia.com/blog/build-impact-map-4-easy-steps](https://uxpressia.com/blog/build-impact-map-4-easy-steps)  
+  [Consulta: 28 de mayo de 2024].
+
+- **Indeed Editorial Team (2021). How to Write a Problem Statement Step by Step (with an Example).**  
+  Recuperado de: [https://www.indeed.com/career-advice/career-development/how-to-write-a-problem-statement](https://www.indeed.com/career-advice/career-development/how-to-write-a-problem-statement)  
+  [Consulta: 29 de mayo de 2024].
+
+- **Rivas Frías, Bruno. (2020). Cine de autor peruano en tiempos de globalización: entre la transgresión y la marginación. Revista de Comunicación, 19(2), 215-230.**  
+  Recuperado de: [https://dx.doi.org/10.26441/rc19.2-2020-a12](https://dx.doi.org/10.26441/rc19.2-2020-a12)  
+  [Consulta: 3 de junio de 2024].
+
+- **To-be Scenario Map: Draft a vision of your user’s future experience to show how your ideas address their current needs.**  
+  Recuperado de: [https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map](https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map)  
+  [Consulta: 4 de junio de 2024].
+
+- **Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.**  
+  Recuperado de: [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)  
+  [Consulta: 10 de junio de 2024].
+
+- **Mougayar, W. (2016). The Business Blockchain: Promise, Practice, and the Application of the Next Internet Technology. Wiley.**  
+  Recuperado de: [https://www.wiley.com/en-us/The+Business+Blockchain%3A+Promise%2C+Practice%2C+and+the+Application+of+the+Next+Internet+Technology-p-9781119300311](https://www.wiley.com/en-us/The+Business+Blockchain%3A+Promise%2C+Practice%2C+and+the+Application+of+the+Next+Internet+Technology-p-9781119300311)  
+  [Consulta: 12 de junio de 2024].
