@@ -89,7 +89,7 @@ Para el despliegue del backend en Java 16 se utilizará el servicio Railway (htt
 
 #### 7.2.1.2. Sprint Backlog 1.
 
-# Sprint 1: Implementar la funcionalidad de pago con MetaMask
+**Sprint 1: Implementar la funcionalidad de pago con MetaMask**
 
 | User Story ID | Title                                                            | ID  | Task Title                                                | Description                                                                       | Estimation (Hours) | Assigned To        | Status     |
 | ------------- | ---------------------------------------------------------------- | --- | --------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------ | ------------------ | ---------- |
@@ -325,7 +325,47 @@ Pipeline de CI/CD en GitHub Actions para el Frontend
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
-#### 7.2.2.3. Development Evidence for Sprint Review.
+
+
+
+
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+| Sprint #                            | Sprint 2                                                                                                                                                                                 |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**      |                                                                                                                                                                                          |
+| Date                                | 17/06/2024                                                                                                                                                                               |
+| Time                                | 21:00 PM                                                                                                                                                                                 |
+| Location                            | Reunión virtual mediante la aplicación Discord                                                                                                                                           |
+| Prepared by                         | Cristian Aldair Bonifacio                                                                                                                                                                |
+| **Attendees (to planning meeting)** | Fiestas Axel , Almeyda Fredy, Chincha Alessandro , Vasquez Tania                                                                                                                         |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                          |
+| Sprint 2 Goal                       | Implementar el flujo de pago con Ethereum en MetaMask para la compra de entradas en Cineclub. |
+| Sprint 2 Velocity                   | Para este sprint hemos considerado aceptar como máximo 21 story points.                                                                                                                  |
+| Sum of Story Points                 | 21                                                                                                                                                                                       |
+
+#### 7.2.2.2. Sprint Backlog 2
+
+### Sprint 1: Implementar la funcionalidad de pago con MetaMask
+
+| User Story ID | Title                                                            | ID  | Task Title                                                | Description                                                                       | Estimation (Hours) | Assigned To        | Status     |
+| ------------- | ---------------------------------------------------------------- | --- | --------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------ | ------------------ | ---------- |
+| US007         | Reservar ticket                                                  | T7  | Reservar un boleto exitosamente                           | Implementar la lógica para reservar un boleto exitosamente                        | 5                  | Tania Vasquez       | Done       |
+|               |                                                                  | T8  | Ver información de la película y funciones disponibles    | Mostrar la información de la película y las funciones disponibles                 | 3                  | Tania Vasquez      | Done       |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T25 | Desarrollar interfaz de confirmación y selección de método de pago | Desarrollar la página de confirmación y pago donde el usuario pueda ver el resumen de la compra y seleccionar el método de pago deseado | 5 | Chincha Alessandro | Done |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T26 | Integrar opción de pago con Ethereum                      | Añadir la opción de "Pagar con Ethereum" en la página de confirmación y pago     | 4                  | Axel Fiestas      | Done      |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T27 | Implementar conversión de soles a Ethereum                | Desarrollar la funcionalidad para convertir el monto total en soles a Ethereum utilizando la tasa de cambio actual | 4 | Cristian Aldair    | Done |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T28 | Mostrar valor equivalente en Ethereum y tarifas en MetaMask | Actualizar la interfaz para mostrar el valor equivalente en Ethereum y las tarifas estimadas cuando el usuario selecciona pagar con Ethereum | 4 | 	 Fredy Almeyda       | Done |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T29 | Integrar MetaMask para confirmación de transacciones      | Implementar la integración con MetaMask para que los usuarios puedan revisar y confirmar la transacción | 6 | Axel Fiestas      | Done |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T30 | Verificar transacción en la blockchain                    | Desarrollar la funcionalidad para verificar que la transacción ha sido exitosa en la blockchain | 5 | Fredy Almeyda      | Done |
+| US030         | Realizar pago con MetaMask en la aplicación cineclub             | T31 | Mostrar mensaje de "Reserva exitosa"                      | Implementar la funcionalidad para mostrar un mensaje de "Reserva exitosa" una vez que se haya verificado la transacción | 4 | Chincha Alessandro | Done |
+
+
+
+#### 7.2.2.3. Development Evidence for Sprint Review
 
 Durante este sprint, se implementaron funcionalidades de pago utilizando MetaMask en la aplicación frontend. Se realizaron modificaciones importantes, como la conversión automática del monto total en soles al valor equivalente en criptomonedas. De esta manera, el usuario puede realizar el pago de forma sencilla sin preocuparse por la conversión. Además, se añadió la capacidad de realizar operaciones simuladas con criptomonedas (Específicamente Sepolia), lo cual permite realizar pruebas y verificar que los pagos se procesen correctamente.En el backend, fue necesario actualizar la base de datos debido a la expiración del servicio de alojamiento anterior.
 
