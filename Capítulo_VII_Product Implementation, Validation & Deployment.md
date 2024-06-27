@@ -325,6 +325,7 @@ Pipeline de CI/CD en GitHub Actions para el Frontend
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
+![UX](Resources/images/TeamCollab.png)
 
 
 
@@ -450,6 +451,7 @@ Esta evidencia documenta el desarrollo de una aplicación web que integra MetaMa
 ![UX](Resources/execution_evidence/DocumentacionAPI.png)
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
+![UX](Resources/images/TeamCollab.png)
 
 ## 7.3. Validation Interviews Evidence for Sprint Review
 
