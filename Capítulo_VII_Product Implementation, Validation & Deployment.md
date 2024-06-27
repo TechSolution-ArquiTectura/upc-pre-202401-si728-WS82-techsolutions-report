@@ -429,6 +429,7 @@ Para simplificar el proceso de compra con criptomonedas.
 
 #### 7.2.2.5.Execution Evidence for Sprint Review
 
+Esta evidencia documenta el desarrollo de una aplicación web que integra MetaMask como pasarela de pagos, permitiendo a los usuarios realizar transacciones con criptomonedas en la red Ethereum. El proceso incluyó la creación de historias de usuario y tareas específicas para asegurar una implementación robusta y eficiente. Entre las tareas destacadas se encuentran la implementación de la API RESTful para iniciar y verificar pagos con MetaMask, la integración de contratos inteligentes para manejar transacciones en la blockchain de Ethereum, y la validación de diversos escenarios de pago, incluyendo la gestión de fondos insuficientes y errores de transacción. Cada componente fue desarrollado y asignado a miembros específicos del equipo, garantizando una distribución equilibrada del trabajo y un enfoque colaborativo en la realización de los objetivos del sprint. Se logró realizar la conexión mediante MetaMask, permitiendo a los usuarios efectuar transacciones en la red Ethereum. La integración de MetaMask ofrece una opción segura y moderna para pagos, alineando la aplicación con las tendencias actuales en tecnología financiera y mejorando la experiencia del usuario final.
 
 ![UX](Resources/images/Imagen-metamaslk-Transaction.jpg)
 
@@ -436,7 +437,13 @@ Para simplificar el proceso de compra con criptomonedas.
 
 
 #### 7.2.2.4.Service Documentation
-
+| EndPoint        | Method | Description                                                            | Request                                                          | Response                                     |
+| --------------- | ------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
+|                 | GET    | http://localhost:8080/api/TuCine/v1/paymentMethods                     | http://localhost:8080/api/TuCine/v1/paymentMethods               | 200 OK, JSON con la lista de metodos de pago |
+|                 | POST   | http://localhost:8080/api/TuCine/v1/paymentsMethods                    | http://localhost:8080/api/TuCine/v1/paymentsMethods              | 200 OK, JSON publicando metodo de pago       |
+| Payment Methods | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}               | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}          | 200 OK, JSON Borrando la información         |
+|                 | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}/user/{userId} | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}/user/{1} | 200 OK, JSON Borrando metodo del usuario     |
+|                 | GET    | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{userId}      | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{1}     | 200 OK, JSON con la informacion del usuario  |
 ## 7.3. Validation Interviews Evidence for Sprint Review
 
 ### 7.3.1. Diseño de Entrevistas
