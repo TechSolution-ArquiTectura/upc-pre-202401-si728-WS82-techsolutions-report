@@ -436,7 +436,7 @@ Esta evidencia documenta el desarrollo de una aplicación web que integra MetaMa
 ![UX](Resources/images/Imagen-Transaccion-ok.jpg)
 
 
-#### 7.2.2.4.Service Documentation
+#### 7.2.2.6.Service Documentation
 | EndPoint        | Method | Description                                                            | Request                                                          | Response                                     |
 | --------------- | ------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
 |                 | GET    | http://localhost:8080/api/TuCine/v1/paymentMethods                     | http://localhost:8080/api/TuCine/v1/paymentMethods               | 200 OK, JSON con la lista de metodos de pago |
@@ -444,6 +444,13 @@ Esta evidencia documenta el desarrollo de una aplicación web que integra MetaMa
 | Payment Methods | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}               | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}          | 200 OK, JSON Borrando la información         |
 |                 | Delete | http://localhost:8080/api/TuCine/v1/paymentsMethods/{id}/user/{userId} | http://localhost:8080/api/TuCine/v1/paymentsMethods/{1}/user/{1} | 200 OK, JSON Borrando metodo del usuario     |
 |                 | GET    | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{userId}      | http://localhost:8080/api/TuCine/v1/paymentsMethods/user/{1}     | 200 OK, JSON con la informacion del usuario  |
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+![UX](Resources/execution_evidence/DocumentacionAPI.png)
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
 ## 7.3. Validation Interviews Evidence for Sprint Review
 
 ### 7.3.1. Diseño de Entrevistas
